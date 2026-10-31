@@ -1,0 +1,42 @@
+{
+  "experiment_id": "exp-20261031T183855Z-259b02bf",
+  "timestamp_utc": "2026-10-31T18:38:55.468650+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/model_culi_prototype_xor_v1.json",
+    "--adapter",
+    "recurrent_adapter:RecurrentModelAdapter",
+    "--model-path",
+    "/root/culi/models/prototype_recurrent_xor_seed1.json",
+    "--output",
+    "/root/culi/experiments/results/comparison_recurrent_seed1.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.22025603102520108,
+  "peak_rss_bytes": 16252928,
+  "cpu_time_seconds": 0.217413,
+  "cpu_utilization_percent": 98.70921535634326,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T183855Z-30272\nmodel=prototype-recurrent-model 0.0.1-experimental\noverall_score=1.0\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=1.0\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=15990784\noutput=/root/culi/experiments/results/comparison_recurrent_seed1.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

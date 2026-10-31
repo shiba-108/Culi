@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T192733Z-14432
+model=compact_memory seed-3
+overall_score=1.0
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=1.0
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=16384000
+output=/root/culi/experiments/results/m8_eval_compact_memory_delayed_recall_seed3_len4.json

@@ -1,0 +1,12 @@
+model=hierarchical
+task=parity
+train_length=6
+train_count=100
+epochs=50
+parameter_count=89
+initial_loss=0.253931
+final_loss=0.190612
+parameters_changed=True
+runtime_seconds=4.178758
+peak_rss_bytes=16384000
+model_path=/root/culi/models/m7_hierarchical_parity_seed3.json

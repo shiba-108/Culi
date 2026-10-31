@@ -1,0 +1,12 @@
+model=feedforward
+task=dependency
+train_length=6
+train_count=100
+epochs=100
+parameter_count=129
+initial_loss=0.249629
+final_loss=0.001763
+parameters_changed=True
+runtime_seconds=2.004696
+peak_rss_bytes=15859712
+model_path=/root/culi/models/seq_feedforward_dependency_seed2.json

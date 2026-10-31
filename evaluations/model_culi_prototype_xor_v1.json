@@ -1,0 +1,10 @@
+{
+  "dataset_id": "model_culi_prototype_xor_v1",
+  "version": "1.0",
+  "cases": [
+    {"id": "xor-00", "category": "reasoning", "input": "0 0", "expected": "0", "scoring": "exact", "metadata": {"prototype_task": "xor", "not_language_capability": true}},
+    {"id": "xor-01", "category": "reasoning", "input": "0 1", "expected": "1", "scoring": "exact", "metadata": {"prototype_task": "xor", "not_language_capability": true}},
+    {"id": "xor-10", "category": "reasoning", "input": "1 0", "expected": "1", "scoring": "exact", "metadata": {"prototype_task": "xor", "not_language_capability": true}},
+    {"id": "xor-11", "category": "reasoning", "input": "1 1", "expected": "0", "scoring": "exact", "metadata": {"prototype_task": "xor", "not_language_capability": true}}
+  ]
+}

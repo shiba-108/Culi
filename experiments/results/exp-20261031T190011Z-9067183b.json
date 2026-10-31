@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T190011Z-9067183b",
+  "timestamp_utc": "2026-10-31T19:00:12.300577+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "recurrent_bounded",
+    "--task",
+    "parity",
+    "--train-length",
+    "6",
+    "--train-count",
+    "100",
+    "--epochs",
+    "50",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "2",
+    "--seed",
+    "2",
+    "--output",
+    "models/m7_recurrent_bounded_parity_seed2.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 1.1970780648989603,
+  "peak_rss_bytes": 16338944,
+  "cpu_time_seconds": 1.192289,
+  "cpu_utilization_percent": 99.5999371269605,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=recurrent_bounded\ntask=parity\ntrain_length=6\ntrain_count=100\nepochs=50\nparameter_count=11\ninitial_loss=0.253123\nfinal_loss=0.248524\nparameters_changed=True\nruntime_seconds=0.722886\npeak_rss_bytes=16121856\nmodel_path=/root/culi/models/m7_recurrent_bounded_parity_seed2.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

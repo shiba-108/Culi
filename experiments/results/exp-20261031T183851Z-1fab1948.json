@@ -1,0 +1,40 @@
+{
+  "experiment_id": "exp-20261031T183851Z-1fab1948",
+  "timestamp_utc": "2026-10-31T18:38:52.668815+00:00",
+  "command": [
+    "python3",
+    "src/train_prototype.py",
+    "--epochs",
+    "5000",
+    "--seed",
+    "3",
+    "--output",
+    "models/prototype_xor_seed3.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 1.3095943999942392,
+  "peak_rss_bytes": 15876096,
+  "cpu_time_seconds": 1.2966229999999999,
+  "cpu_utilization_percent": 99.00951012051546,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "epochs=5000\nsamples=4\nparameter_count=17\ninitial_loss=0.250187\nfinal_loss=0.000660\nparameters_changed=True\nruntime_seconds=1.008068\npeak_rss_bytes=15728640\nmodel_path=/root/culi/models/prototype_xor_seed3.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

@@ -1,0 +1,9 @@
+epochs=5000
+samples=4
+parameter_count=17
+initial_loss=0.256059
+final_loss=0.000981
+parameters_changed=True
+runtime_seconds=1.073917
+peak_rss_bytes=15597568
+model_path=/root/culi/models/prototype_xor_seed1.json

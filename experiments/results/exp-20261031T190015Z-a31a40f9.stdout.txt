@@ -1,0 +1,12 @@
+model=recurrent_bounded
+task=delayed_recall
+train_length=6
+train_count=100
+epochs=50
+parameter_count=11
+initial_loss=0.249990
+final_loss=0.249486
+parameters_changed=True
+runtime_seconds=0.783659
+peak_rss_bytes=16252928
+model_path=/root/culi/models/m7_recurrent_bounded_delayed_recall_seed1.json

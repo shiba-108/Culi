@@ -1,0 +1,606 @@
+{
+  "dataset_id": "seq_parity_len6_v1",
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "parity-0000",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0001",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0002",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0003",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0004",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0005",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0006",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0007",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0008",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0009",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0010",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0011",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0012",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0013",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0014",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0015",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0016",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0017",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0018",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0019",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0020",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0021",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0022",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0023",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0024",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0025",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0026",
+      "category": "reasoning",
+      "input": "1 1 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0027",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0028",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0029",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0030",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0031",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0032",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0033",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0034",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0035",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0036",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0037",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0038",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0039",
+      "category": "reasoning",
+      "input": "0 0 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0040",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0041",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0042",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0043",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0044",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0045",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0046",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0047",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0048",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "parity-0049",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "parity",
+        "length": 6,
+        "synthetic": true
+      }
+    }
+  ]
+}

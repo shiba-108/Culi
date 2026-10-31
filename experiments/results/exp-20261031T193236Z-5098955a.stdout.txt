@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T193237Z-4176
+model=recurrent seed-4
+overall_score=0.38
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.38
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=16121856
+output=/root/culi/experiments/results/m8_eval_recurrent_parity_seed4_len16.json

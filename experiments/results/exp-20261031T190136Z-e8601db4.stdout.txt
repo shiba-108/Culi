@@ -1,0 +1,12 @@
+model=hierarchical
+task=delayed_recall
+train_length=6
+train_count=100
+epochs=50
+parameter_count=89
+initial_loss=0.254022
+final_loss=0.000203
+parameters_changed=True
+runtime_seconds=3.612631
+peak_rss_bytes=16252928
+model_path=/root/culi/models/m7_hierarchical_delayed_recall_seed2.json

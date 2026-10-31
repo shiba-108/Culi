@@ -1,0 +1,3879 @@
+{
+  "timestamp_utc": "2026-10-31T19:37:40Z",
+  "tasks": [
+    "parity",
+    "delayed_recall",
+    "dependency",
+    "multi_recall"
+  ],
+  "models": [
+    "recurrent",
+    "memory",
+    "compact_memory"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "train_lengths": [
+    4,
+    6,
+    8
+  ],
+  "train_count": 120,
+  "epochs": 40,
+  "test_lengths": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    16
+  ],
+  "results": [
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.1988062219461426,
+      "training_peak_rss_bytes": 16490496,
+      "parameter_count": 29,
+      "initial_loss": 0.251609,
+      "final_loss": 0.241997,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_parity_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0031708499882370234,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193223Z-11312"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0032033459283411503,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193223Z-46512"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004247013013809919,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193224Z-76112"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006833092076703906,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193224Z-11920"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006735838018357754,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193224Z-76528"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06829352001659572,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193225Z-16016"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.708500443957746,
+      "training_peak_rss_bytes": 16330752,
+      "parameter_count": 29,
+      "initial_loss": 0.260705,
+      "final_loss": 0.201509,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_parity_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00300423102453351,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193227Z-77744"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0037194840842857957,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193227Z-86016"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003713933052495122,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193228Z-76640"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004802103969268501,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.34,
+          "evaluation_id": "eval-20261031T193228Z-77456"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07430014596320689,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193228Z-30672"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007153704995289445,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193229Z-16800"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.809399000951089,
+      "training_peak_rss_bytes": 16441344,
+      "parameter_count": 29,
+      "initial_loss": 0.250032,
+      "final_loss": 0.226764,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_parity_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0024957340210676193,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193231Z-41680"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0024836809607222676,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.36,
+          "evaluation_id": "eval-20261031T193231Z-65200"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0032246820628643036,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.66,
+          "evaluation_id": "eval-20261031T193231Z-99536"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005042301956564188,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193232Z-78064"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004765487043187022,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193232Z-69808"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010392145020887256,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193233Z-59216"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.692140172002837,
+      "training_peak_rss_bytes": 16355328,
+      "parameter_count": 29,
+      "initial_loss": 0.243435,
+      "final_loss": 0.212456,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_parity_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003134988946840167,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193235Z-98576"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0032679589930921793,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193235Z-56816"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003419650951400399,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193235Z-57712"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06252375605981797,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193236Z-43824"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006417573080398142,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193236Z-9488"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07938945398200303,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.38,
+          "evaluation_id": "eval-20261031T193237Z-4176"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.898050650022924,
+      "training_peak_rss_bytes": 16347136,
+      "parameter_count": 29,
+      "initial_loss": 0.248481,
+      "final_loss": 0.23884,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_parity_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002649347996339202,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193239Z-18576"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004309735028073192,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193239Z-78096"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006456008064560592,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.38,
+          "evaluation_id": "eval-20261031T193240Z-77200"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00590846105478704,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193240Z-12032"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006377125973813236,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193241Z-68816"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00806977495085448,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193241Z-72848"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7778818589868024,
+      "training_peak_rss_bytes": 16334848,
+      "parameter_count": 29,
+      "initial_loss": 0.246924,
+      "final_loss": 0.000197,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_delayed_recall_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0026040029479190707,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193243Z-91536"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004004815011285245,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193244Z-14320"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06428756599780172,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193244Z-27744"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00700445007532835,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193244Z-19456"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00679340900387615,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193245Z-83184"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006576178013347089,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.78,
+          "evaluation_id": "eval-20261031T193245Z-82848"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.5862703409511596,
+      "training_peak_rss_bytes": 16457728,
+      "parameter_count": 29,
+      "initial_loss": 0.258618,
+      "final_loss": 0.000344,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_delayed_recall_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.001828256994485855,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193247Z-51600"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0037451389944180846,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193247Z-2672"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0036436509108170867,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193248Z-41680"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004423587000928819,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193248Z-76672"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007577177952043712,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193248Z-32096"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0810025769751519,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.96,
+          "evaluation_id": "eval-20261031T193249Z-74672"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.8876612699823454,
+      "training_peak_rss_bytes": 16359424,
+      "parameter_count": 29,
+      "initial_loss": 0.249242,
+      "final_loss": 0.000456,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_delayed_recall_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002094842027872801,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193251Z-39456"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0036408340092748404,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193252Z-99856"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0037829510401934385,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193252Z-37424"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06482887594029307,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193252Z-82832"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004710142966359854,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193253Z-71984"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006802767049521208,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193253Z-4816"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7177117229439318,
+      "training_peak_rss_bytes": 16318464,
+      "parameter_count": 29,
+      "initial_loss": 0.251257,
+      "final_loss": 0.000164,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_delayed_recall_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0019345830660313368,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193255Z-42048"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0030039208941161633,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193256Z-10512"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0036406320286914706,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193256Z-39792"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003772190073505044,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193256Z-78736"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005359104019589722,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193257Z-68848"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06950610596686602,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193257Z-67904"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7673469490837306,
+      "training_peak_rss_bytes": 16310272,
+      "parameter_count": 29,
+      "initial_loss": 0.248192,
+      "final_loss": 0.000242,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_delayed_recall_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0018552299588918686,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193259Z-30464"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00433142704423517,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193259Z-59984"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0041227900655940175,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193300Z-42896"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004954972886480391,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193300Z-60112"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007187982089817524,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193301Z-71392"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007137586013413966,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193301Z-52176"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.730069566052407,
+      "training_peak_rss_bytes": 16334848,
+      "parameter_count": 29,
+      "initial_loss": 0.256427,
+      "final_loss": 0.00875,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_dependency_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0025562059599906206,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193303Z-75616"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0024870879715308547,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193303Z-75520"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004962104023434222,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193304Z-45776"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005050220992416143,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193304Z-7120"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004499088041484356,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193304Z-20352"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06540717999450862,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193305Z-43648"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.5873351250775158,
+      "training_peak_rss_bytes": 16330752,
+      "parameter_count": 29,
+      "initial_loss": 0.252466,
+      "final_loss": 0.235263,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_dependency_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0019842900801450014,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193307Z-12896"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003332040971145034,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193307Z-6512"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0036297780461609364,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193307Z-1872"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00709487299900502,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.34,
+          "evaluation_id": "eval-20261031T193308Z-97600"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00603585597127676,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193308Z-79296"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06738515000324696,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193309Z-53296"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7984867509221658,
+      "training_peak_rss_bytes": 16334848,
+      "parameter_count": 29,
+      "initial_loss": 0.248852,
+      "final_loss": 0.241509,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_dependency_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00270959606859833,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193311Z-6400"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004444553982466459,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193311Z-72624"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0038722690660506487,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193311Z-88960"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004379798076115549,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193312Z-58016"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006036336999386549,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193312Z-27456"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006279184948652983,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193312Z-34048"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.9090558299794793,
+      "training_peak_rss_bytes": 16330752,
+      "parameter_count": 29,
+      "initial_loss": 0.250078,
+      "final_loss": 0.238432,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_dependency_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00225578504614532,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193315Z-50480"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004514286993071437,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193315Z-12432"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004934828961268067,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193316Z-71024"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004744374891743064,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193316Z-36096"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007936386042274535,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193316Z-20048"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006808061967603862,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.36,
+          "evaluation_id": "eval-20261031T193317Z-54688"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7872190540656447,
+      "training_peak_rss_bytes": 16355328,
+      "parameter_count": 29,
+      "initial_loss": 0.252591,
+      "final_loss": 0.243106,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_dependency_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002095306059345603,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193319Z-71232"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004247786942869425,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193319Z-95248"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005321380100212991,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193320Z-9584"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00397176796104759,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193320Z-79440"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06581887602806091,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193320Z-44672"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00906125595793128,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193321Z-14160"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "multi_recall",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.5960807870142162,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 29,
+      "initial_loss": 0.24615,
+      "final_loss": 0.222724,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_multi_recall_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0025119601050391793,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193323Z-71616"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002451734966598451,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.38,
+          "evaluation_id": "eval-20261031T193323Z-89472"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005554223898798227,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193323Z-33648"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005693223909474909,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193324Z-4784"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004836127976886928,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193324Z-13920"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006394144031219184,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193324Z-30880"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "multi_recall",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.5083965850062668,
+      "training_peak_rss_bytes": 16338944,
+      "parameter_count": 29,
+      "initial_loss": 0.249688,
+      "final_loss": 0.216724,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_multi_recall_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002469420083798468,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193326Z-98960"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06585721590090543,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.7,
+          "evaluation_id": "eval-20261031T193327Z-7424"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004504375043325126,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193327Z-34368"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.062383782933466136,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193327Z-3696"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06659898301586509,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193328Z-57696"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0668291780166328,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.68,
+          "evaluation_id": "eval-20261031T193328Z-880"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "multi_recall",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.6986939570633695,
+      "training_peak_rss_bytes": 16437248,
+      "parameter_count": 29,
+      "initial_loss": 0.249428,
+      "final_loss": 0.194908,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_multi_recall_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0020322100026533008,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.74,
+          "evaluation_id": "eval-20261031T193330Z-46144"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0046806709142401814,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193330Z-77344"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003962711896747351,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193331Z-51536"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005028968909755349,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193331Z-65776"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06037625507451594,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193331Z-59168"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006092275958508253,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193332Z-54512"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "multi_recall",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.6285751690156758,
+      "training_peak_rss_bytes": 16330752,
+      "parameter_count": 29,
+      "initial_loss": 0.251741,
+      "final_loss": 0.248555,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_multi_recall_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0020602239528670907,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193334Z-18192"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0030360729433596134,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193334Z-92352"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0039099050918594,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193334Z-63328"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004573544953018427,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193335Z-72656"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00522768497467041,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193335Z-25408"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009435312007553875,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193335Z-39872"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "multi_recall",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.6977067020488903,
+      "training_peak_rss_bytes": 16322560,
+      "parameter_count": 29,
+      "initial_loss": 0.252726,
+      "final_loss": 0.20266,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_recurrent_multi_recall_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0030226639937609434,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193338Z-41248"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0032193880761042237,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193338Z-45440"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004389396053738892,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193338Z-82944"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06254333397373557,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193339Z-38224"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06532020308077335,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193339Z-80864"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06717128201853484,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.64,
+          "evaluation_id": "eval-20261031T193340Z-50448"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "parity",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.729994258959778,
+      "training_peak_rss_bytes": 16388096,
+      "parameter_count": 97,
+      "initial_loss": 0.252367,
+      "final_loss": 0.241301,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_parity_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006605174043215811,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.64,
+          "evaluation_id": "eval-20261031T193345Z-67952"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011368985986337066,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193348Z-66224"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07235013996250927,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193348Z-86608"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.014117656974121928,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193348Z-71888"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07449948193971068,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193349Z-17200"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.02371822705026716,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193349Z-44208"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "parity",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.387670596013777,
+      "training_peak_rss_bytes": 16396288,
+      "parameter_count": 97,
+      "initial_loss": 0.249788,
+      "final_loss": 0.200569,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_parity_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005712869926355779,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193354Z-5008"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008174162008799613,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193354Z-93744"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010977652040310204,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193354Z-34288"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07234846905339509,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193355Z-32992"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0843968449626118,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193355Z-87728"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0797804050380364,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193356Z-46416"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "parity",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.397836909047328,
+      "training_peak_rss_bytes": 16379904,
+      "parameter_count": 97,
+      "initial_loss": 0.253037,
+      "final_loss": 0.22161,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_parity_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009019720018841326,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193400Z-45200"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008366686990484595,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193401Z-50640"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011095709051005542,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193401Z-42864"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08544567797798663,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193402Z-58896"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08674360101576895,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.38,
+          "evaluation_id": "eval-20261031T193402Z-13424"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08575335901696235,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193403Z-8560"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "parity",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.51973185595125,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 97,
+      "initial_loss": 0.232706,
+      "final_loss": 0.193494,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_parity_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06363211793359369,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193408Z-26320"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010114363976754248,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193408Z-51376"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0726474029943347,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193408Z-86704"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0732153250137344,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193409Z-2416"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01562502793967724,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193409Z-40944"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08576216804794967,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193409Z-84016"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "parity",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.6090988559881225,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 97,
+      "initial_loss": 0.253311,
+      "final_loss": 0.239994,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_parity_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0678802530746907,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193414Z-91184"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009457035921514034,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193415Z-61696"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.015661033103242517,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193415Z-63616"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.014155409997329116,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.66,
+          "evaluation_id": "eval-20261031T193415Z-11536"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0769695119233802,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193416Z-51152"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.09646527504082769,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193416Z-79696"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "delayed_recall",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 5.398616060963832,
+      "training_peak_rss_bytes": 16515072,
+      "parameter_count": 97,
+      "initial_loss": 0.25501,
+      "final_loss": 0.000954,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_delayed_recall_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008590715937316418,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193422Z-55056"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.018614734057337046,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193423Z-72688"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011152626946568489,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193423Z-74096"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0743210919899866,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193423Z-17488"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08745074307080358,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193424Z-67376"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08597660902887583,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.92,
+          "evaluation_id": "eval-20261031T193424Z-736"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "delayed_recall",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 5.588178531033918,
+      "training_peak_rss_bytes": 16400384,
+      "parameter_count": 97,
+      "initial_loss": 0.245241,
+      "final_loss": 0.000113,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_delayed_recall_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005850822082720697,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193430Z-38448"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008258171961642802,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193431Z-97840"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010629113065078855,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193431Z-85216"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.016127660986967385,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193432Z-90528"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08557280502282083,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193432Z-83472"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08869517897255719,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193432Z-69040"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "delayed_recall",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.490130334044807,
+      "training_peak_rss_bytes": 16400384,
+      "parameter_count": 97,
+      "initial_loss": 0.251446,
+      "final_loss": 9.6e-05,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_delayed_recall_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06446913001127541,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193437Z-81616"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07082043390255421,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193438Z-31552"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07492647203616798,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193438Z-16752"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.014379490981809795,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193438Z-33456"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01996420801151544,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193439Z-13744"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08702109300065786,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193439Z-7888"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "delayed_recall",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.728389013092965,
+      "training_peak_rss_bytes": 16515072,
+      "parameter_count": 97,
+      "initial_loss": 0.26102,
+      "final_loss": 0.000166,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_delayed_recall_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0064686479745432734,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193444Z-91984"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008384029031731188,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193445Z-21552"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01130628096871078,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193445Z-63248"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.017832297016866505,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193446Z-75536"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.020596739021129906,
+          "evaluation_peak_rss_bytes": 16248832,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193446Z-55168"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.021453780005685985,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193446Z-42768"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "delayed_recall",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.7865690930048,
+      "training_peak_rss_bytes": 16367616,
+      "parameter_count": 97,
+      "initial_loss": 0.246097,
+      "final_loss": 9.9e-05,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_delayed_recall_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006194671033881605,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193452Z-9968"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008304993971250951,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193452Z-62768"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011310423025861382,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193452Z-97888"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07426704792305827,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193453Z-45040"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.016075797961093485,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193453Z-94288"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.023412095033563673,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193453Z-58064"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "dependency",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.707079246989451,
+      "training_peak_rss_bytes": 16531456,
+      "parameter_count": 97,
+      "initial_loss": 0.248711,
+      "final_loss": 0.00291,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_dependency_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007471702992916107,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193458Z-39920"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00829632196109742,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193459Z-79792"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07333316490985453,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193459Z-13616"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.021316610975190997,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193500Z-93040"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.017744097975082695,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193500Z-81104"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08382413000799716,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193501Z-63040"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "dependency",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.396705906954594,
+      "training_peak_rss_bytes": 16388096,
+      "parameter_count": 97,
+      "initial_loss": 0.249241,
+      "final_loss": 0.224417,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_dependency_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005566766019910574,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193505Z-66144"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008292148937471211,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193506Z-61520"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07088499702513218,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.72,
+          "evaluation_id": "eval-20261031T193506Z-47376"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.016913032974116504,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193506Z-39440"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07872351002879441,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193507Z-87952"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.021570435957983136,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193507Z-16880"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "dependency",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.597654578043148,
+      "training_peak_rss_bytes": 16457728,
+      "parameter_count": 97,
+      "initial_loss": 0.249155,
+      "final_loss": 0.240653,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_dependency_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00931342993862927,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193512Z-31056"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00877646601293236,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193512Z-58640"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011391420965082943,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193513Z-9456"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01877070195041597,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193513Z-44976"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07802055298816413,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193514Z-94896"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08494350407272577,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193514Z-15184"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "dependency",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.587487832992338,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 97,
+      "initial_loss": 0.25506,
+      "final_loss": 0.010084,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_dependency_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005760865984484553,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193519Z-7920"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06699913798365742,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193519Z-52176"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01875522790942341,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193520Z-60864"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0192114170640707,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193520Z-1552"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07983009400777519,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193521Z-60976"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.027058214065618813,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193521Z-84944"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "dependency",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.618710821960121,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 97,
+      "initial_loss": 0.249503,
+      "final_loss": 0.211596,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_dependency_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008231358020566404,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193526Z-10992"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009017404983751476,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.66,
+          "evaluation_id": "eval-20261031T193527Z-73424"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011952443048357964,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193527Z-4240"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07901056401897222,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193527Z-88176"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01675338705535978,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193528Z-83632"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0799850421026349,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193528Z-43200"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "multi_recall",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.6080992290517315,
+      "training_peak_rss_bytes": 16404480,
+      "parameter_count": 97,
+      "initial_loss": 0.254976,
+      "final_loss": 0.118162,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_multi_recall_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006369918934069574,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.88,
+          "evaluation_id": "eval-20261031T193533Z-47760"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06374910101294518,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.74,
+          "evaluation_id": "eval-20261031T193533Z-56704"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010550764040090144,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193534Z-35888"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07341551990248263,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193534Z-80208"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07259513810276985,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193534Z-47920"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.02318409609142691,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193535Z-93456"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "multi_recall",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.588107223971747,
+      "training_peak_rss_bytes": 16457728,
+      "parameter_count": 97,
+      "initial_loss": 0.256531,
+      "final_loss": 0.217069,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_multi_recall_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006390710943378508,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.84,
+          "evaluation_id": "eval-20261031T193540Z-19920"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011138551984913647,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193540Z-74576"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07342603302095085,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193541Z-22352"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.015997227048501372,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193541Z-68432"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08430908608715981,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193541Z-62080"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.02335379004944116,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193542Z-73136"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "multi_recall",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.597907565999776,
+      "training_peak_rss_bytes": 16478208,
+      "parameter_count": 97,
+      "initial_loss": 0.248702,
+      "final_loss": 0.279378,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_multi_recall_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00933583895675838,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193547Z-98224"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06641810096334666,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193547Z-25072"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07168616692069918,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193548Z-11200"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.013544008950702846,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193548Z-69904"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01575890905223787,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193548Z-39056"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0866504879668355,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193549Z-40016"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "multi_recall",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.507790156989358,
+      "training_peak_rss_bytes": 16400384,
+      "parameter_count": 97,
+      "initial_loss": 0.258439,
+      "final_loss": 0.248692,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_multi_recall_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006106943008489907,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193554Z-14624"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007878818898461759,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T193554Z-12928"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011449827929027379,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193554Z-56032"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01809614198282361,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193555Z-44656"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07538942398969084,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193555Z-20992"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.023721485980786383,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193555Z-23920"
+        }
+      }
+    },
+    {
+      "model": "memory",
+      "task": "multi_recall",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 4.718907907023095,
+      "training_peak_rss_bytes": 16375808,
+      "parameter_count": 97,
+      "initial_loss": 0.247255,
+      "final_loss": 0.238409,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_memory_multi_recall_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005454258061945438,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193601Z-6864"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00927715701982379,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193601Z-25168"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011964143952354789,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193601Z-74736"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.014187894994392991,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193602Z-39824"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07918922102544457,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193602Z-93648"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08960521803237498,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193602Z-39632"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "parity",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.37758847407531,
+      "training_peak_rss_bytes": 16388096,
+      "parameter_count": 33,
+      "initial_loss": 0.256303,
+      "final_loss": 0.246579,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_parity_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0031802590237930417,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193605Z-18112"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008636194979771972,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193606Z-2192"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005300206015817821,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193606Z-11648"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008015586994588375,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193606Z-75280"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01019794400781393,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193607Z-51968"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.016743881977163255,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193607Z-1904"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "parity",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.2980998649727553,
+      "training_peak_rss_bytes": 16457728,
+      "parameter_count": 33,
+      "initial_loss": 0.268889,
+      "final_loss": 0.207149,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_parity_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004942847997881472,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193610Z-93744"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0064473079983145,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193610Z-8992"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005746860057115555,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193610Z-29696"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008905693073756993,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193611Z-23968"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0694800759665668,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193611Z-70944"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.013364643091335893,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193611Z-44992"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "parity",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.4871914649847895,
+      "training_peak_rss_bytes": 16437248,
+      "parameter_count": 33,
+      "initial_loss": 0.250084,
+      "final_loss": 0.227541,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_parity_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003895830945111811,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193614Z-23552"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006026840070262551,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193615Z-44480"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007494429009966552,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193615Z-24976"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007622657925821841,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193615Z-40960"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009738756925798953,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193616Z-69792"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011194381979294121,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193616Z-88576"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "parity",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.517879060935229,
+      "training_peak_rss_bytes": 16515072,
+      "parameter_count": 33,
+      "initial_loss": 0.24644,
+      "final_loss": 0.221358,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_parity_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004998478922061622,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193619Z-61552"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005679376074112952,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193620Z-94752"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00632253207731992,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193620Z-6736"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06552763399668038,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193620Z-50656"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07645511301234365,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193621Z-1568"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07928187097422779,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193621Z-8992"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "parity",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.308363632997498,
+      "training_peak_rss_bytes": 16379904,
+      "parameter_count": 33,
+      "initial_loss": 0.248246,
+      "final_loss": 0.237866,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_parity_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0027727329870685935,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193624Z-45248"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005045362981036305,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193624Z-86208"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06402831000741571,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193625Z-480"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007066202932037413,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.64,
+          "evaluation_id": "eval-20261031T193625Z-18704"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.012768388958647847,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193625Z-39920"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011306460946798325,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193626Z-16224"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "delayed_recall",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.518381610047072,
+      "training_peak_rss_bytes": 16392192,
+      "parameter_count": 33,
+      "initial_loss": 0.256161,
+      "final_loss": 0.001032,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_delayed_recall_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0033274400047957897,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193628Z-98432"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007064466015435755,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193629Z-89680"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007962475065141916,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193629Z-42192"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06731714308261871,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193630Z-21328"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00849837006535381,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193630Z-83776"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07303432794287801,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.98,
+          "evaluation_id": "eval-20261031T193630Z-34848"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "delayed_recall",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.3195730660809204,
+      "training_peak_rss_bytes": 16515072,
+      "parameter_count": 33,
+      "initial_loss": 0.269541,
+      "final_loss": 0.000414,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_delayed_recall_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003625869983807206,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193633Z-8896"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005364059936255217,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193634Z-81760"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008648689021356404,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193634Z-74784"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06662767590023577,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193634Z-16336"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01044883590657264,
+          "evaluation_peak_rss_bytes": 16117760,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193635Z-63888"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08178894699085504,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193635Z-58064"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "delayed_recall",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.6179677749751136,
+      "training_peak_rss_bytes": 16392192,
+      "parameter_count": 33,
+      "initial_loss": 0.252907,
+      "final_loss": 0.000317,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_delayed_recall_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06388723396230489,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193638Z-31584"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004369786940515041,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193639Z-59872"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006825797958299518,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193639Z-76672"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06890715903136879,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193640Z-21344"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010520067065954208,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193640Z-34144"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011386787984520197,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193641Z-5232"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "delayed_recall",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.784183236886747,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 33,
+      "initial_loss": 0.247051,
+      "final_loss": 0.00028,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_delayed_recall_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004478453076444566,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193644Z-85712"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0045890589244663715,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193644Z-90032"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06847011600621045,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193645Z-45856"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007269820896908641,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193645Z-54688"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.012836996000260115,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193646Z-64224"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.013435667962767184,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193646Z-6432"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "delayed_recall",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.4074691110290587,
+      "training_peak_rss_bytes": 16515072,
+      "parameter_count": 33,
+      "initial_loss": 0.249642,
+      "final_loss": 0.00017,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_delayed_recall_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004531617043539882,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193649Z-65440"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0046574389562010765,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193649Z-8976"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009186350042000413,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193650Z-42240"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007109605008736253,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193650Z-97312"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06403405300807208,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193650Z-22032"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01666068099439144,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T193651Z-89312"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "dependency",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.4092267639935017,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 33,
+      "initial_loss": 0.252958,
+      "final_loss": 0.249798,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_dependency_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0738743229303509,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T193654Z-77824"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06492403894662857,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193654Z-48064"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008208013023249805,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193654Z-46688"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008468389976769686,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193655Z-24384"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007375066983513534,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193655Z-3520"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.018420962034724653,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.38,
+          "evaluation_id": "eval-20261031T193656Z-63200"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "dependency",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.975091669941321,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 33,
+      "initial_loss": 0.254967,
+      "final_loss": 0.245747,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_dependency_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0035829360131174326,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193659Z-82560"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005237504024989903,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193659Z-29216"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005894893896766007,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193700Z-89184"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006814936990849674,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193700Z-61264"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07278148201294243,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193700Z-28400"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.016876132925972342,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193701Z-384"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "dependency",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.506810713093728,
+      "training_peak_rss_bytes": 16388096,
+      "parameter_count": 33,
+      "initial_loss": 0.249541,
+      "final_loss": 0.247816,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_dependency_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004398938035592437,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193704Z-91456"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0044114619959145784,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193704Z-86368"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007363229990005493,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193705Z-53024"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006710484973154962,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193705Z-23152"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01135081797838211,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193705Z-65968"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.013783704023808241,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193706Z-26624"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "dependency",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.498556888080202,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 33,
+      "initial_loss": 0.251085,
+      "final_loss": 0.24187,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_dependency_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003746290924027562,
+          "evaluation_peak_rss_bytes": 16109568,
+          "overall_score": 0.38,
+          "evaluation_id": "eval-20261031T193708Z-39328"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003974076942540705,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193709Z-87040"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06488838896621019,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193709Z-80256"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06781954795587808,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193710Z-37248"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06756626593414694,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193710Z-12176"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.011072827037423849,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193710Z-47568"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "dependency",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.3985562740126625,
+      "training_peak_rss_bytes": 16412672,
+      "parameter_count": 33,
+      "initial_loss": 0.251616,
+      "final_loss": 0.242507,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_dependency_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004110579029656947,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193713Z-92128"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005919863935559988,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193713Z-15648"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0061579219764098525,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193714Z-352"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009923661942593753,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193714Z-896"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010164303006604314,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193715Z-82544"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07374054100364447,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193715Z-99728"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "multi_recall",
+      "seed": 1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.5774660410825163,
+      "training_peak_rss_bytes": 16379904,
+      "parameter_count": 33,
+      "initial_loss": 0.271046,
+      "final_loss": 0.227488,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_multi_recall_seed1.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06460397993214428,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193718Z-76032"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005194728961214423,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193718Z-71920"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00834027596283704,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193719Z-40736"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.007614706992171705,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193719Z-47168"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06819901498965919,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193720Z-63488"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06887683598324656,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193720Z-88416"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "multi_recall",
+      "seed": 2,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.510252731037326,
+      "training_peak_rss_bytes": 16384000,
+      "parameter_count": 33,
+      "initial_loss": 0.249936,
+      "final_loss": 0.205614,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_multi_recall_seed2.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004335919977165759,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193723Z-2192"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005366271012462676,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.7,
+          "evaluation_id": "eval-20261031T193723Z-74896"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008645232999697328,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193724Z-74688"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06643302703741938,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T193724Z-60416"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.00828487693797797,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193724Z-97824"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.015239135012961924,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193725Z-64608"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "multi_recall",
+      "seed": 3,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.4866123580140993,
+      "training_peak_rss_bytes": 16371712,
+      "parameter_count": 33,
+      "initial_loss": 0.247412,
+      "final_loss": 0.242728,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_multi_recall_seed3.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0033750380389392376,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T193728Z-70336"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005289282999001443,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193728Z-55584"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0650063930079341,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193728Z-74608"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.01086689590010792,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193729Z-43008"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009248621994629502,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T193729Z-59744"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.012781720026396215,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T193730Z-88224"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "multi_recall",
+      "seed": 4,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.5183793338947,
+      "training_peak_rss_bytes": 16437248,
+      "parameter_count": 33,
+      "initial_loss": 0.254948,
+      "final_loss": 0.221587,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_multi_recall_seed4.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003103450988419354,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.7,
+          "evaluation_id": "eval-20261031T193733Z-62704"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004394161980599165,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193733Z-4640"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.006588030024431646,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T193733Z-17744"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010359627078287303,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193734Z-37792"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.009603247046470642,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T193734Z-55072"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.012516062939539552,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193734Z-39232"
+        }
+      }
+    },
+    {
+      "model": "compact_memory",
+      "task": "multi_recall",
+      "seed": 5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.508429688983597,
+      "training_peak_rss_bytes": 16310272,
+      "parameter_count": 33,
+      "initial_loss": 0.252608,
+      "final_loss": 0.275588,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/m8_compact_memory_multi_recall_seed5.json",
+      "evaluations": {
+        "4": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003363752970471978,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193737Z-9984"
+        },
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0063866450218483806,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T193738Z-63536"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.008176159928552806,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193738Z-9184"
+        },
+        "10": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06672253890428692,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T193739Z-88032"
+        },
+        "12": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.010708478977903724,
+          "evaluation_peak_rss_bytes": 16384000,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T193739Z-26080"
+        },
+        "16": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.07379524898715317,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T193740Z-68432"
+        }
+      }
+    }
+  ],
+  "wall_time_seconds": 319.47995147597976
+}

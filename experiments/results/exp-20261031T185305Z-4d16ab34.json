@@ -1,0 +1,50 @@
+{
+  "experiment_id": "exp-20261031T185305Z-4d16ab34",
+  "timestamp_utc": "2026-10-31T18:53:07.937196+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "feedforward",
+    "--task",
+    "dependency",
+    "--train-length",
+    "6",
+    "--train-count",
+    "100",
+    "--epochs",
+    "100",
+    "--learning-rate",
+    "0.5",
+    "--seed",
+    "2",
+    "--output",
+    "models/seq_feedforward_dependency_seed2.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 2.409264382906258,
+  "peak_rss_bytes": 16134144,
+  "cpu_time_seconds": 2.4000850000000002,
+  "cpu_utilization_percent": 99.61899644674178,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=feedforward\ntask=dependency\ntrain_length=6\ntrain_count=100\nepochs=100\nparameter_count=129\ninitial_loss=0.249629\nfinal_loss=0.001763\nparameters_changed=True\nruntime_seconds=2.111484\npeak_rss_bytes=15990784\nmodel_path=/root/culi/models/seq_feedforward_dependency_seed2.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

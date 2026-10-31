@@ -1,0 +1,13 @@
+model=recurrent
+task=multi_recall
+train_length=6
+train_count=120
+train_lengths=[4, 6, 8]
+epochs=40
+parameter_count=29
+initial_loss=0.246150
+final_loss=0.222724
+parameters_changed=True
+runtime_seconds=1.379854
+peak_rss_bytes=16384000
+model_path=/root/culi/models/m8_recurrent_multi_recall_seed1.json

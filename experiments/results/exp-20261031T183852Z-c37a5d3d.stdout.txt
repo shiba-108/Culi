@@ -1,0 +1,9 @@
+epochs=5000
+samples=4
+parameter_count=29
+initial_loss=0.251974
+final_loss=0.000330
+parameters_changed=True
+runtime_seconds=1.999802
+peak_rss_bytes=15728640
+model_path=/root/culi/models/prototype_recurrent_xor_seed1.json

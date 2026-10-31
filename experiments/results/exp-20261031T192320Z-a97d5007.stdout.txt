@@ -1,0 +1,13 @@
+model=recurrent
+task=parity
+train_length=6
+train_count=120
+train_lengths=[4, 6, 8]
+epochs=40
+parameter_count=29
+initial_loss=0.248481
+final_loss=0.238840
+parameters_changed=True
+runtime_seconds=1.285167
+peak_rss_bytes=16252928
+model_path=/root/culi/models/m8_recurrent_parity_seed5.json

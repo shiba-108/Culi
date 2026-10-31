@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T192837Z-26016
+model=compact_memory seed-2
+overall_score=0.84
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.84
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=16384000
+output=/root/culi/experiments/results/m8_eval_compact_memory_multi_recall_seed2_len4.json

@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T185311Z-41ce00a5",
+  "timestamp_utc": "2026-10-31T18:53:11.516382+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_dependency_len6_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialFeedforwardAdapter",
+    "--model-path",
+    "/root/culi/models/seq_feedforward_dependency_seed3.json",
+    "--model-name",
+    "feedforward",
+    "--model-version",
+    "seed-3",
+    "--output",
+    "/root/culi/experiments/results/seq_eval_feedforward_dependency_seed3_len6.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.3201676500029862,
+  "peak_rss_bytes": 16236544,
+  "cpu_time_seconds": 0.309585,
+  "cpu_utilization_percent": 96.69465356575297,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T185311Z-77776\nmodel=feedforward seed-3\noverall_score=1.0\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=1.0\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=15990784\noutput=/root/culi/experiments/results/seq_eval_feedforward_dependency_seed3_len6.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

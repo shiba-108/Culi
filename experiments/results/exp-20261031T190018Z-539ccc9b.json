@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T190018Z-539ccc9b",
+  "timestamp_utc": "2026-10-31T19:00:19.722352+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "recurrent_bounded",
+    "--task",
+    "delayed_recall",
+    "--train-length",
+    "6",
+    "--train-count",
+    "100",
+    "--epochs",
+    "50",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "2",
+    "--seed",
+    "3",
+    "--output",
+    "models/m7_recurrent_bounded_delayed_recall_seed3.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 1.0190046359784901,
+  "peak_rss_bytes": 16343040,
+  "cpu_time_seconds": 1.0076749999999999,
+  "cpu_utilization_percent": 98.88816639508111,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=recurrent_bounded\ntask=delayed_recall\ntrain_length=6\ntrain_count=100\nepochs=50\nparameter_count=11\ninitial_loss=0.255303\nfinal_loss=0.000294\nparameters_changed=True\nruntime_seconds=0.683753\npeak_rss_bytes=16252928\nmodel_path=/root/culi/models/m7_recurrent_bounded_delayed_recall_seed3.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

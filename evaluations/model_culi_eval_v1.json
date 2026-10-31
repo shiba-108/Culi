@@ -1,0 +1,18 @@
+{
+  "dataset_id": "model_culi_eval_v1",
+  "version": "1.0",
+  "cases": [
+    {"id": "vi-001", "category": "vietnamese_language", "input": "Dịch sang tiếng Anh: 'Xin chào'", "expected": "hello", "scoring": "contains"},
+    {"id": "vi-002", "category": "vietnamese_language", "input": "Dịch sang tiếng Anh: 'Cảm ơn'", "expected": "thank you", "scoring": "contains"},
+    {"id": "en-001", "category": "english_language", "input": "What is the capital of France?", "expected": "Paris", "scoring": "contains"},
+    {"id": "en-002", "category": "english_language", "input": "What is 2 + 2?", "expected": "4", "scoring": "contains"},
+    {"id": "rust-001", "category": "rust_code", "input": "Write a Rust function that returns the sum of two i32 values.", "expected": "fn sum", "scoring": "contains"},
+    {"id": "rust-002", "category": "rust_code", "input": "Write a Rust function that returns the sum of two i32 values.", "expected": "i32", "scoring": "contains"},
+    {"id": "dioxus-001", "category": "dioxus_code", "input": "In Dioxus, which macro is commonly used to define a component's UI?", "expected": "rsx", "scoring": "contains"},
+    {"id": "reason-001", "category": "reasoning", "input": "If A > B and B > C, is A > C?", "expected": "yes", "scoring": "contains"},
+    {"id": "reason-002", "category": "reasoning", "input": "Explain why memory matters for intelligence.", "expected": "memory", "scoring": "contains"},
+    {"id": "plan-001", "category": "planning", "input": "Plan the steps to compile and test a Rust project.", "expected": "cargo test", "scoring": "contains"},
+    {"id": "tool-001", "category": "tool_selection", "input": "You need to run Rust tests. Which tool should you use?", "expected": "cargo test", "scoring": "contains"},
+    {"id": "manual-001", "category": "reasoning", "input": "Evaluate whether the answer above is sufficient.", "expected": null, "scoring": "manual"}
+  ]
+}

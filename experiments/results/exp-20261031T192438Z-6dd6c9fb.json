@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T192438Z-6dd6c9fb",
+  "timestamp_utc": "2026-10-31T19:24:43.347730+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "memory",
+    "--task",
+    "parity",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "120",
+    "--epochs",
+    "40",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "4",
+    "--seed",
+    "4",
+    "--output",
+    "models/m8_memory_parity_seed4.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 4.819350218982436,
+  "peak_rss_bytes": 16375808,
+  "cpu_time_seconds": 4.804811,
+  "cpu_utilization_percent": 99.69831578279643,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=memory\ntask=parity\ntrain_length=6\ntrain_count=120\ntrain_lengths=[4, 6, 8]\nepochs=40\nparameter_count=97\ninitial_loss=0.232706\nfinal_loss=0.193494\nparameters_changed=True\nruntime_seconds=4.412265\npeak_rss_bytes=15986688\nmodel_path=/root/culi/models/m8_memory_parity_seed4.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

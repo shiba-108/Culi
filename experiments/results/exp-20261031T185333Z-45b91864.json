@@ -1,0 +1,50 @@
+{
+  "experiment_id": "exp-20261031T185333Z-45b91864",
+  "timestamp_utc": "2026-10-31T18:53:36.416854+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "feedforward",
+    "--task",
+    "delayed_recall",
+    "--train-length",
+    "6",
+    "--train-count",
+    "100",
+    "--epochs",
+    "100",
+    "--learning-rate",
+    "0.5",
+    "--seed",
+    "3",
+    "--output",
+    "models/seq_feedforward_delayed_recall_seed3.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 2.6219502589665353,
+  "peak_rss_bytes": 16121856,
+  "cpu_time_seconds": 2.506801,
+  "cpu_utilization_percent": 95.6082592119073,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=feedforward\ntask=delayed_recall\ntrain_length=6\ntrain_count=100\nepochs=100\nparameter_count=129\ninitial_loss=0.260205\nfinal_loss=0.000178\nparameters_changed=True\nruntime_seconds=2.299793\npeak_rss_bytes=15859712\nmodel_path=/root/culi/models/seq_feedforward_delayed_recall_seed3.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

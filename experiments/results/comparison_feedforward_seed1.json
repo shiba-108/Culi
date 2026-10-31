@@ -1,0 +1,86 @@
+{
+  "evaluation_id": "eval-20261031T183849Z-11312",
+  "timestamp_utc": "2026-10-31T18:38:49.635656+00:00",
+  "model_name": "prototype-xor-model",
+  "model_version": "0.0.1-experimental",
+  "dataset_id": "model_culi_prototype_xor_v1",
+  "dataset_version": "1.0",
+  "case_results": [
+    {
+      "case_id": "xor-00",
+      "category": "reasoning",
+      "input": "0 0",
+      "expected": "0",
+      "output": "0",
+      "score": 1.0,
+      "passed": true,
+      "scoring": "exact",
+      "status": "scored",
+      "error": null,
+      "latency_seconds": 3.349001053720713e-05
+    },
+    {
+      "case_id": "xor-01",
+      "category": "reasoning",
+      "input": "0 1",
+      "expected": "1",
+      "output": "1",
+      "score": 1.0,
+      "passed": true,
+      "scoring": "exact",
+      "status": "scored",
+      "error": null,
+      "latency_seconds": 1.3250974006950855e-05
+    },
+    {
+      "case_id": "xor-10",
+      "category": "reasoning",
+      "input": "1 0",
+      "expected": "1",
+      "output": "1",
+      "score": 1.0,
+      "passed": true,
+      "scoring": "exact",
+      "status": "scored",
+      "error": null,
+      "latency_seconds": 9.826966561377048e-06
+    },
+    {
+      "case_id": "xor-11",
+      "category": "reasoning",
+      "input": "1 1",
+      "expected": "0",
+      "output": "0",
+      "score": 1.0,
+      "passed": true,
+      "scoring": "exact",
+      "status": "scored",
+      "error": null,
+      "latency_seconds": 8.666072972118855e-06
+    }
+  ],
+  "category_scores": {
+    "vietnamese_language": null,
+    "english_language": null,
+    "rust_code": null,
+    "dioxus_code": null,
+    "reasoning": 1.0,
+    "planning": null,
+    "tool_selection": null
+  },
+  "overall_score": 1.0,
+  "total_runtime_seconds": 0.00018181500490754843,
+  "peak_rss_bytes": 16121856,
+  "manual_review_count": 0,
+  "implemented_measurements": [
+    "per_case_latency_seconds",
+    "total_runtime_seconds",
+    "peak_rss_bytes",
+    "automatic_scores",
+    "manual_review_flags"
+  ],
+  "planned_measurements": [
+    "human_reviewed quality scores",
+    "throughput per task"
+  ]
+}

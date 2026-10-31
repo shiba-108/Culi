@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T192458Z-b62f3f19",
+  "timestamp_utc": "2026-10-31T19:24:59.347376+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_delayed_recall_len10_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialMemoryAdapter",
+    "--model-path",
+    "/root/culi/models/m8_memory_delayed_recall_seed1.json",
+    "--model-name",
+    "memory",
+    "--model-version",
+    "seed-1",
+    "--output",
+    "/root/culi/experiments/results/m8_eval_memory_delayed_recall_seed1_len10.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.3878858370007947,
+  "peak_rss_bytes": 16494592,
+  "cpu_time_seconds": 0.376967,
+  "cpu_utilization_percent": 97.1850384934853,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T192459Z-30832\nmodel=memory seed-1\noverall_score=1.0\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=1.0\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=16384000\noutput=/root/culi/experiments/results/m8_eval_memory_delayed_recall_seed1_len10.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

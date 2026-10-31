@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T192707Z-a6a1cbf6",
+  "timestamp_utc": "2026-10-31T19:27:07.643358+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_parity_len6_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialMemoryAdapter",
+    "--model-path",
+    "/root/culi/models/m8_compact_memory_parity_seed4.json",
+    "--model-name",
+    "compact_memory",
+    "--model-version",
+    "seed-4",
+    "--output",
+    "/root/culi/experiments/results/m8_eval_compact_memory_parity_seed4_len6.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.38925638201180845,
+  "peak_rss_bytes": 16400384,
+  "cpu_time_seconds": 0.37997400000000003,
+  "cpu_utilization_percent": 97.61535521554356,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T192707Z-4528\nmodel=compact_memory seed-4\noverall_score=0.46\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=0.46\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=16252928\noutput=/root/culi/experiments/results/m8_eval_compact_memory_parity_seed4_len6.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

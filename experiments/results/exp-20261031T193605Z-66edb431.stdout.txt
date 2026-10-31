@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T193605Z-18112
+model=compact_memory seed-1
+overall_score=0.6
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.6
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=16384000
+output=/root/culi/experiments/results/m8_eval_compact_memory_parity_seed1_len4.json

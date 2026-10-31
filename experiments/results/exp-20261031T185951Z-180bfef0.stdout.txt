@@ -1,0 +1,12 @@
+model=recurrent
+task=parity
+train_length=6
+train_count=100
+epochs=50
+parameter_count=29
+initial_loss=0.250130
+final_loss=0.209324
+parameters_changed=True
+runtime_seconds=1.537534
+peak_rss_bytes=16121856
+model_path=/root/culi/models/m7_recurrent_parity_seed3.json

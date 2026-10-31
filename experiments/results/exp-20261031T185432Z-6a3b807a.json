@@ -1,0 +1,50 @@
+{
+  "experiment_id": "exp-20261031T185432Z-6a3b807a",
+  "timestamp_utc": "2026-10-31T18:54:34.292040+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "recurrent_bounded",
+    "--task",
+    "dependency",
+    "--train-length",
+    "6",
+    "--train-count",
+    "100",
+    "--epochs",
+    "100",
+    "--learning-rate",
+    "0.1",
+    "--seed",
+    "1",
+    "--output",
+    "models/seq_recurrent_bounded_dependency_seed1.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 1.5665805649477988,
+  "peak_rss_bytes": 16257024,
+  "cpu_time_seconds": 1.508394,
+  "cpu_utilization_percent": 96.28575981026947,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=recurrent_bounded\ntask=dependency\ntrain_length=6\ntrain_count=100\nepochs=100\nparameter_count=11\ninitial_loss=0.251380\nfinal_loss=0.247045\nparameters_changed=True\nruntime_seconds=1.278351\npeak_rss_bytes=16252928\nmodel_path=/root/culi/models/seq_recurrent_bounded_dependency_seed1.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

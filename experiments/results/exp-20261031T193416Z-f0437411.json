@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T193416Z-f0437411",
+  "timestamp_utc": "2026-10-31T19:34:22.237056+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "memory",
+    "--task",
+    "delayed_recall",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "120",
+    "--epochs",
+    "40",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "4",
+    "--seed",
+    "1",
+    "--output",
+    "models/m8_memory_delayed_recall_seed1.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 5.398616060963832,
+  "peak_rss_bytes": 16515072,
+  "cpu_time_seconds": 5.270371,
+  "cpu_utilization_percent": 97.62448265415385,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=memory\ntask=delayed_recall\ntrain_length=6\ntrain_count=120\ntrain_lengths=[4, 6, 8]\nepochs=40\nparameter_count=97\ninitial_loss=0.255010\nfinal_loss=0.000954\nparameters_changed=True\nruntime_seconds=5.005100\npeak_rss_bytes=16384000\nmodel_path=/root/culi/models/m8_memory_delayed_recall_seed1.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

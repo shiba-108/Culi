@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T185305Z-81904
+model=feedforward seed-1
+overall_score=0.54
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.54
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=15990784
+output=/root/culi/experiments/results/seq_eval_feedforward_dependency_seed1_len8.json

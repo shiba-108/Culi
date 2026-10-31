@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T193526Z-10992
+model=memory seed-5
+overall_score=0.54
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.54
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=16384000
+output=/root/culi/experiments/results/m8_eval_memory_dependency_seed5_len4.json

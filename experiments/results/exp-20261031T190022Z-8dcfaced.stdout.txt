@@ -1,0 +1,12 @@
+model=recurrent_bounded
+task=dependency
+train_length=6
+train_count=100
+epochs=50
+parameter_count=11
+initial_loss=0.246561
+final_loss=0.207808
+parameters_changed=True
+runtime_seconds=0.725912
+peak_rss_bytes=16384000
+model_path=/root/culi/models/m7_recurrent_bounded_dependency_seed2.json

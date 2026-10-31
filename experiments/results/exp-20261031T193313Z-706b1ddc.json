@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T193313Z-706b1ddc",
+  "timestamp_utc": "2026-10-31T19:33:14.950565+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "recurrent",
+    "--task",
+    "dependency",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "120",
+    "--epochs",
+    "40",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "4",
+    "--seed",
+    "4",
+    "--output",
+    "models/m8_recurrent_dependency_seed4.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 1.9090558299794793,
+  "peak_rss_bytes": 16330752,
+  "cpu_time_seconds": 1.891099,
+  "cpu_utilization_percent": 99.05938686037945,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=recurrent\ntask=dependency\ntrain_length=6\ntrain_count=120\ntrain_lengths=[4, 6, 8]\nepochs=40\nparameter_count=29\ninitial_loss=0.250078\nfinal_loss=0.238432\nparameters_changed=True\nruntime_seconds=1.510508\npeak_rss_bytes=15990784\nmodel_path=/root/culi/models/m8_recurrent_dependency_seed4.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

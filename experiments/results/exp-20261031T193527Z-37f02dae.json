@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T193527Z-37f02dae",
+  "timestamp_utc": "2026-10-31T19:35:27.838017+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_dependency_len10_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialMemoryAdapter",
+    "--model-path",
+    "/root/culi/models/m8_memory_dependency_seed5.json",
+    "--model-name",
+    "memory",
+    "--model-version",
+    "seed-5",
+    "--output",
+    "/root/culi/experiments/results/m8_eval_memory_dependency_seed5_len10.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.4009124169824645,
+  "peak_rss_bytes": 16515072,
+  "cpu_time_seconds": 0.390493,
+  "cpu_utilization_percent": 97.40107401489631,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T193527Z-88176\nmodel=memory seed-5\noverall_score=0.6\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=0.6\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=16252928\noutput=/root/culi/experiments/results/m8_eval_memory_dependency_seed5_len10.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

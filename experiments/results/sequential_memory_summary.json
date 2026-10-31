@@ -1,0 +1,1000 @@
+{
+  "timestamp_utc": "2026-10-31T18:54:40Z",
+  "tasks": [
+    "parity",
+    "delayed_recall",
+    "dependency"
+  ],
+  "models": [
+    "feedforward",
+    "recurrent",
+    "recurrent_bounded"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "train_length": 6,
+  "train_count": 100,
+  "epochs": 100,
+  "test_lengths": [
+    6,
+    8
+  ],
+  "results": [
+    {
+      "model": "feedforward",
+      "task": "parity",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.497648115037009,
+      "training_peak_rss_bytes": 16003072,
+      "parameter_count": 129,
+      "initial_loss": 0.250456,
+      "final_loss": 0.228104,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_parity_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0015664040111005306,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.5,
+          "evaluation_id": "eval-20261031T185321Z-83200"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0016903710784390569,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.58,
+          "evaluation_id": "eval-20261031T185321Z-6976"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "parity",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.2868433370022103,
+      "training_peak_rss_bytes": 16121856,
+      "parameter_count": 129,
+      "initial_loss": 0.267316,
+      "final_loss": 0.229738,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_parity_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0019283120054751635,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T185324Z-40416"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06369499501306564,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T185324Z-95968"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "parity",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.4084024250041693,
+      "training_peak_rss_bytes": 16121856,
+      "parameter_count": 129,
+      "initial_loss": 0.253418,
+      "final_loss": 0.126545,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_parity_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0015811939956620336,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 0.52,
+          "evaluation_id": "eval-20261031T185327Z-62208"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0017453680047765374,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.36,
+          "evaluation_id": "eval-20261031T185327Z-68576"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "delayed_recall",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.37518881901633,
+      "training_peak_rss_bytes": 16121856,
+      "parameter_count": 129,
+      "initial_loss": 0.24969,
+      "final_loss": 0.000158,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_delayed_recall_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0018296729540452361,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185330Z-15296"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002725454978644848,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T185330Z-93024"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "delayed_recall",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.4114260759670287,
+      "training_peak_rss_bytes": 16121856,
+      "parameter_count": 129,
+      "initial_loss": 0.252638,
+      "final_loss": 0.000157,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_delayed_recall_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0021613569697365165,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185333Z-77024"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0024092199746519327,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T185333Z-84480"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "delayed_recall",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.6219502589665353,
+      "training_peak_rss_bytes": 16121856,
+      "parameter_count": 129,
+      "initial_loss": 0.260205,
+      "final_loss": 0.000178,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_delayed_recall_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004330588039010763,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185336Z-73760"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0017139120027422905,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T185337Z-25824"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "dependency",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.2965527499327436,
+      "training_peak_rss_bytes": 16031744,
+      "parameter_count": 129,
+      "initial_loss": 0.250026,
+      "final_loss": 0.002002,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_dependency_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0022882879711687565,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185339Z-19808"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002232939936220646,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T185339Z-30208"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "dependency",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.3736527169821784,
+      "training_peak_rss_bytes": 16121856,
+      "parameter_count": 129,
+      "initial_loss": 0.249629,
+      "final_loss": 0.001763,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_dependency_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.05829479196108878,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185342Z-35040"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0019740270217880607,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T185342Z-2176"
+        }
+      }
+    },
+    {
+      "model": "feedforward",
+      "task": "dependency",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.5,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.019877343904227,
+      "training_peak_rss_bytes": 16130048,
+      "parameter_count": 129,
+      "initial_loss": 0.258241,
+      "final_loss": 0.001909,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_feedforward_dependency_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003159036976285279,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185345Z-95840"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0017426779959350824,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T185345Z-49920"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.8977064460050315,
+      "training_peak_rss_bytes": 16261120,
+      "parameter_count": 29,
+      "initial_loss": 0.249716,
+      "final_loss": 0.230643,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_parity_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004271665005944669,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T185348Z-19904"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003837837022729218,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.62,
+          "evaluation_id": "eval-20261031T185349Z-72928"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.60900285304524,
+      "training_peak_rss_bytes": 16093184,
+      "parameter_count": 29,
+      "initial_loss": 0.260352,
+      "final_loss": 0.248463,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_parity_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0039918479742482305,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T185352Z-6592"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.005311192944645882,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T185352Z-88960"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "parity",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.99839250696823,
+      "training_peak_rss_bytes": 16142336,
+      "parameter_count": 29,
+      "initial_loss": 0.25013,
+      "final_loss": 0.198207,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_parity_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004179502953775227,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.44,
+          "evaluation_id": "eval-20261031T185355Z-94144"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.05993845302145928,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.28,
+          "evaluation_id": "eval-20261031T185356Z-44880"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.875691380002536,
+      "training_peak_rss_bytes": 16121856,
+      "parameter_count": 29,
+      "initial_loss": 0.248701,
+      "final_loss": 8.7e-05,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_delayed_recall_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0026880219811573625,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185359Z-49792"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003764802939258516,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.64,
+          "evaluation_id": "eval-20261031T185359Z-60400"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.7413849879521877,
+      "training_peak_rss_bytes": 16142336,
+      "parameter_count": 29,
+      "initial_loss": 0.254566,
+      "final_loss": 0.00011,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_delayed_recall_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002718942938372493,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185402Z-97104"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003321934025734663,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.32,
+          "evaluation_id": "eval-20261031T185403Z-95296"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "delayed_recall",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.9773703480605036,
+      "training_peak_rss_bytes": 16130048,
+      "parameter_count": 29,
+      "initial_loss": 0.251758,
+      "final_loss": 7.2e-05,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_delayed_recall_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0032495169434696436,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185406Z-4096"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0039411080069839954,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185406Z-43408"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.8293283919338137,
+      "training_peak_rss_bytes": 16113664,
+      "parameter_count": 29,
+      "initial_loss": 0.25889,
+      "final_loss": 0.001307,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_dependency_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003565967082977295,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185409Z-34016"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003982299007475376,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185410Z-95840"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.8076329180039465,
+      "training_peak_rss_bytes": 16199680,
+      "parameter_count": 29,
+      "initial_loss": 0.250324,
+      "final_loss": 0.000975,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_dependency_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0038706079358235,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185413Z-49856"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0033007400343194604,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185413Z-51072"
+        }
+      }
+    },
+    {
+      "model": "recurrent",
+      "task": "dependency",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.997826574021019,
+      "training_peak_rss_bytes": 16224256,
+      "parameter_count": 29,
+      "initial_loss": 0.25025,
+      "final_loss": 0.013812,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_dependency_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.08074245299212635,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185416Z-64896"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.004599059000611305,
+          "evaluation_peak_rss_bytes": 15990784,
+          "overall_score": 0.14,
+          "evaluation_id": "eval-20261031T185417Z-39104"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "parity",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.8048953600227833,
+      "training_peak_rss_bytes": 16125952,
+      "parameter_count": 11,
+      "initial_loss": 0.250625,
+      "final_loss": 0.17628,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_parity_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0016747619956731796,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.66,
+          "evaluation_id": "eval-20261031T185419Z-77408"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.05710519303102046,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T185420Z-71232"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "parity",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7776019209995866,
+      "training_peak_rss_bytes": 16154624,
+      "parameter_count": 11,
+      "initial_loss": 0.253123,
+      "final_loss": 0.248531,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_parity_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002247581025585532,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.46,
+          "evaluation_id": "eval-20261031T185422Z-8640"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003190176095813513,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T185422Z-93056"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "parity",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.876235775067471,
+      "training_peak_rss_bytes": 16117760,
+      "parameter_count": 11,
+      "initial_loss": 0.257305,
+      "final_loss": 0.216756,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_parity_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0023294020211324096,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.56,
+          "evaluation_id": "eval-20261031T185424Z-46256"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0020321819465607405,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.4,
+          "evaluation_id": "eval-20261031T185425Z-16512"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "delayed_recall",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7213811570545658,
+      "training_peak_rss_bytes": 16125952,
+      "parameter_count": 11,
+      "initial_loss": 0.24999,
+      "final_loss": 0.249486,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_delayed_recall_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0021115279523655772,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.42,
+          "evaluation_id": "eval-20261031T185427Z-12000"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.001969749922864139,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.54,
+          "evaluation_id": "eval-20261031T185427Z-78784"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "delayed_recall",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.740724042057991,
+      "training_peak_rss_bytes": 16134144,
+      "parameter_count": 11,
+      "initial_loss": 0.247753,
+      "final_loss": 0.000188,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_delayed_recall_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002535322098992765,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185429Z-11328"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.003272230038419366,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.26,
+          "evaluation_id": "eval-20261031T185430Z-17184"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "delayed_recall",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7078026889357716,
+      "training_peak_rss_bytes": 16224256,
+      "parameter_count": 11,
+      "initial_loss": 0.255303,
+      "final_loss": 0.000138,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_delayed_recall_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0023502419935539365,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185432Z-46832"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0031735540833324194,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 1.0,
+          "evaluation_id": "eval-20261031T185432Z-15680"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "dependency",
+      "seed": 1,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.5665805649477988,
+      "training_peak_rss_bytes": 16257024,
+      "parameter_count": 11,
+      "initial_loss": 0.25138,
+      "final_loss": 0.247045,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_dependency_seed1.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0017039800295606256,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.34,
+          "evaluation_id": "eval-20261031T185434Z-3472"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.06364402605686337,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T185434Z-29632"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "dependency",
+      "seed": 2,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 1.7976223779842257,
+      "training_peak_rss_bytes": 16109568,
+      "parameter_count": 11,
+      "initial_loss": 0.246561,
+      "final_loss": 0.224038,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_dependency_seed2.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.001747602946124971,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.6,
+          "evaluation_id": "eval-20261031T185437Z-24176"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.002633140073157847,
+          "evaluation_peak_rss_bytes": 16252928,
+          "overall_score": 0.48,
+          "evaluation_id": "eval-20261031T185437Z-98704"
+        }
+      }
+    },
+    {
+      "model": "recurrent_bounded",
+      "task": "dependency",
+      "seed": 3,
+      "train_length": 6,
+      "train_count": 100,
+      "epochs": 100,
+      "learning_rate": 0.1,
+      "training_status": "completed",
+      "training_exit_code": 0,
+      "training_runtime_seconds": 2.2997573990141973,
+      "training_peak_rss_bytes": 16130048,
+      "parameter_count": 11,
+      "initial_loss": 0.25005,
+      "final_loss": 0.106867,
+      "parameters_changed": true,
+      "model_path": "/root/culi/models/seq_recurrent_bounded_dependency_seed3.json",
+      "evaluations": {
+        "6": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0025146850384771824,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.88,
+          "evaluation_id": "eval-20261031T185440Z-22528"
+        },
+        "8": {
+          "status": "completed",
+          "exit_code": 0,
+          "evaluation_runtime_seconds": 0.0021932380041107535,
+          "evaluation_peak_rss_bytes": 16121856,
+          "overall_score": 0.86,
+          "evaluation_id": "eval-20261031T185440Z-22496"
+        }
+      }
+    }
+  ],
+  "wall_time_seconds": 82.2841225520242
+}

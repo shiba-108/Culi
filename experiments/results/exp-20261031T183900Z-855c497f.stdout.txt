@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T183900Z-87968
+model=prototype-recurrent-model 0.0.1-experimental
+overall_score=0.5
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.5
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=15990784
+output=/root/culi/experiments/results/comparison_recurrent_seed3.json

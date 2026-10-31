@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T192356Z-650c0221",
+  "timestamp_utc": "2026-10-31T19:23:56.927832+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_dependency_len12_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialRecurrentAdapter",
+    "--model-path",
+    "/root/culi/models/m8_recurrent_dependency_seed4.json",
+    "--model-name",
+    "recurrent",
+    "--model-version",
+    "seed-4",
+    "--output",
+    "/root/culi/experiments/results/m8_eval_recurrent_dependency_seed4_len12.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.3668152329046279,
+  "peak_rss_bytes": 16384000,
+  "cpu_time_seconds": 0.308651,
+  "cpu_utilization_percent": 84.14345215599303,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T192356Z-25312\nmodel=recurrent seed-4\noverall_score=0.58\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=0.58\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=16121856\noutput=/root/culi/experiments/results/m8_eval_recurrent_dependency_seed4_len12.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

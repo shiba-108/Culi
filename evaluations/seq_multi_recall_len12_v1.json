@@ -1,0 +1,606 @@
+{
+  "dataset_id": "seq_multi_recall_len12_v1",
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "multi_recall-0000",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 0 0 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0001",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 0 0 0 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0002",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 0 0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0003",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0004",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 1 0 0 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0005",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 0 0 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0006",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 0 1 1 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0007",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1 1 0 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0008",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1 0 0 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0009",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 1 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0010",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 0 0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0011",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 1 0 1 0 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0012",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 1 0 0 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0013",
+      "category": "reasoning",
+      "input": "1 1 1 0 0 0 1 1 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0014",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0 0 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0015",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 0 0 1 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0016",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 0 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0017",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 0 1 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0018",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 1 0 0 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0019",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0020",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 0 1 1 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0021",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 1 0 1 1 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0022",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 1 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0023",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 0 0 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0024",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0025",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 1 1 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0026",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0 1 1 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0027",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 1 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0028",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 1 0 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0029",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0030",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0031",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0032",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 0 1 0 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0033",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 1 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0034",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 0 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0035",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0036",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 0 0 0 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0037",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 1 1 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0038",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 1 1 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0039",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 0 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0040",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0041",
+      "category": "reasoning",
+      "input": "1 0 1 1 1 0 1 0 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0042",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 1 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0043",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 1 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0044",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 0 0 1 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0045",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 0 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0046",
+      "category": "reasoning",
+      "input": "0 1 0 1 1 0 1 0 0 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0047",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 1 0 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0048",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1 0 1 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "multi_recall-0049",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "multi_recall",
+        "length": 12,
+        "synthetic": true
+      }
+    }
+  ]
+}

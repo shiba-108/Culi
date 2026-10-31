@@ -1,0 +1,13 @@
+model=memory
+task=parity
+train_length=6
+train_count=120
+train_lengths=[4, 6, 8]
+epochs=40
+parameter_count=33
+initial_loss=0.246440
+final_loss=0.221358
+parameters_changed=True
+runtime_seconds=2.136517
+peak_rss_bytes=16252928
+model_path=/root/culi/models/m8_compact_memory_parity_seed4.json

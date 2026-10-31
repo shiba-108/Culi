@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T190154Z-3df95390",
+  "timestamp_utc": "2026-10-31T19:01:55.097325+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_dependency_len6_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialHierarchicalAdapter",
+    "--model-path",
+    "/root/culi/models/m7_hierarchical_dependency_seed2.json",
+    "--model-name",
+    "hierarchical",
+    "--model-version",
+    "seed-2",
+    "--output",
+    "/root/culi/experiments/results/m7_eval_hierarchical_dependency_seed2_len6.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.30893761094193906,
+  "peak_rss_bytes": 16482304,
+  "cpu_time_seconds": 0.29738699999999996,
+  "cpu_utilization_percent": 96.26118331571163,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T190155Z-39488\nmodel=hierarchical seed-2\noverall_score=1.0\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=1.0\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=16252928\noutput=/root/culi/experiments/results/m7_eval_hierarchical_dependency_seed2_len6.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

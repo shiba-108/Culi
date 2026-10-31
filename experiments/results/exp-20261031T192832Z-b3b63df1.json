@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T192832Z-b3b63df1",
+  "timestamp_utc": "2026-10-31T19:28:36.917852+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "memory",
+    "--task",
+    "multi_recall",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "120",
+    "--epochs",
+    "40",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "2",
+    "--seed",
+    "2",
+    "--output",
+    "models/m8_compact_memory_multi_recall_seed2.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 4.497626404976472,
+  "peak_rss_bytes": 16519168,
+  "cpu_time_seconds": 4.348585,
+  "cpu_utilization_percent": 96.68622087393557,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=memory\ntask=multi_recall\ntrain_length=6\ntrain_count=120\ntrain_lengths=[4, 6, 8]\nepochs=40\nparameter_count=97\ninitial_loss=0.256531\nfinal_loss=0.217069\nparameters_changed=True\nruntime_seconds=4.215363\npeak_rss_bytes=16384000\nmodel_path=/root/culi/models/m8_compact_memory_multi_recall_seed2.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

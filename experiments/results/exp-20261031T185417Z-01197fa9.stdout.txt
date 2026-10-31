@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T185417Z-39104
+model=recurrent seed-3
+overall_score=0.14
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.14
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=15990784
+output=/root/culi/experiments/results/seq_eval_recurrent_dependency_seed3_len8.json
