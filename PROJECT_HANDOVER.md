@@ -58,6 +58,9 @@ Core requirements:
 | D-0010 | Controlled comparison experiment (D-0010): feedforward vs recurrent prototypes on XOR across seeds 1-3. |
 | D-0011 | Sequential memory and reasoning experiment (D-0011): synthetic tasks, multiple models, deterministic seeds, familiar and longer lengths. |
 | D-0012 | Memory organization experiment (D-0012): gated-memory and hierarchical-state candidates, multiple tasks, deterministic seeds, familiar and longer lengths. |
+| D-0013 | Selective memory experiment (D-0013): recurrent, gated-memory, and compact gated-memory candidates, multiple retention distances, interference tests, deterministic seeds, and longer unseen sequences. |
+| D-0014 | Clarification of Milestone 8 candidate set: recurrent, gated-memory, and compact gated-memory; hierarchical-state not included in Milestone 8. |
+| D-0015 | Git/GitHub adoption: initialize Git and adopt `shiba-108/Culi`; baseline commit `48c792697b729a65566fdd56bfa9a290a902627e` on branch `main`. |
 
 ### 1.3 Operational 4 GB Definition (D-0005)
 
@@ -74,12 +77,16 @@ Core requirements:
 
 ### 2.1 Status
 
-- Phase: Research Foundation complete; research planning pending project-owner approval.
-- Architecture: No architecture selected. No implementation exists.
-- Git: Not initialized. No packages installed. No data or weights downloaded. No training performed.
-- Reserved directories (`research/`, `experiments/`, `src/`, `tests/`, `models/`) are empty.
-- Experiment log: no experiments recorded.
-- Decision log: D-0001 through D-0013 approved; remaining decisions TO BE DEFINED.
+- Phase: Research Foundation and experimental milestones through Milestone 8 complete; documentation reconciled; Git baseline adopted.
+- Architecture: No architecture selected or endorsed. Experimental prototypes only.
+- Git: Initialized. Branch `main`. Latest baseline commit `48c792697b729a65566fdd56bfa9a290a902627e`. Remote `origin` (`git@github-culi:shiba-108/Culi.git`). Working tree last verified clean.
+- GitHub authentication: dedicated deploy key `culi_github_deploy` (private key not included in repository).
+- Git identity: `shiba-108` / `Xuanloc98@gmail.com`.
+- Reserved directories populated with source, tests, experiments, evaluations, and models.
+- Experiment log: experiments through Milestone 8 recorded.
+- Decision log: D-0001 through D-0015 approved; remaining decisions TO BE DEFINED.
+- No packages installed. No external data or weights downloaded. No VPS configuration modified. No Docker.
+- Milestone 9 (Cross-Task Generalization): approved direction, NOT started.
 
 ### 2.2 Completed Work
 
@@ -97,8 +104,21 @@ Core requirements:
 - Sequential memory and reasoning experiment executed (D-0011).
 - Memory organization experiment executed (D-0012).
 - Selective memory and long-range retention experiment executed (D-0013).
+- Milestone 8 documentation reconciliation completed.
+- Git repository initialized and GitHub baseline adopted (D-0015).
 
 ---
+
+### 2.3 Milestone 8 (Selective Memory) — Verified Findings and Limitations
+
+- Candidates: recurrent, gated-memory, compact gated-memory (hidden size 2). Hierarchical-state was not included in Milestone 8 (see D-0014).
+- Tasks: parity, delayed recall, dependency, multi-recall. Train lengths 4/6/8; evaluation lengths 4, 6, 8, 10, 12, 16; 5 seeds.
+- Key results (mean over seeds):
+  - Delayed recall: all candidates 1.000 at lengths 6 and 8; gated memory 0.984 and compact memory 0.996 at length 16.
+  - Dependency: gated memory 0.724/0.768/0.720 (len 6/8/16); recurrent 0.580/0.612/0.592; compact memory 0.484/0.512/0.464.
+  - Parity remained near chance for all candidates.
+- Resource use: peak training RSS max ~16.5 MB; peak evaluation RSS max ~16.4 MB; all runs far below the 4 GB per-process limit.
+- Limitations: synthetic tasks only; no natural language, code, or general intelligence evaluation; no final architecture selected; D-0013 wording reconciled by D-0014.
 
 ## 3. Research Findings and Unresolved Questions
 
@@ -209,7 +229,7 @@ Core requirements:
 Use the following prompt verbatim to initialize 108:
 
 ```
-You are Cline instance 108 assigned to Project Model Culi. Operate only within /root/culi. Before any action, read and obey .clinerules/project-rules.md and all files under docs/. This is a research-and-documentation phase unless explicitly authorized otherwise. You must not implement or train models, install packages, download datasets or weights, call paid APIs, modify VPS configuration, or initialize Git. Distinguish established objectives, unresolved questions, hypotheses, and validated conclusions. Do not redefine project objectives or make strategic decisions for the project owner. First action: verify the environment and summarize current project state. Then wait for further instructions. Acknowledge these constraints before proceeding.
+You are Cline instance 108 assigned to Project Model Culi. Operate only within /root/culi. Before any action, read and obey .clinerules/project-rules.md (including its New Session Context Restoration section) and all files under docs/. This is an implementation-allowed phase only when explicitly authorized. Git is already initialized; do not reinitialize it, modify remotes, or rewrite history without approval. You must not install packages, download datasets or weights, call paid APIs, or modify VPS configuration. Distinguish established objectives, unresolved questions, hypotheses, and validated conclusions. Do not redefine project objectives or make strategic decisions for the project owner. First action: restore context and report current Git status, then wait for further instructions. Acknowledge these constraints before proceeding.
 ```
 
 ---

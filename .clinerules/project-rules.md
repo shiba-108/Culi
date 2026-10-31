@@ -1,5 +1,22 @@
 # Project Model Culi Rules
 
+## 0. New Session Context Restoration
+
+At the beginning of every new session, 108 must:
+
+1. Read `.clinerules/project-rules.md` first.
+2. Read `PROJECT_HANDOVER.md`.
+3. Read `docs/PROJECT_MASTER.md`.
+4. Read `docs/DECISIONS.md`.
+5. Read `docs/ARCHITECTURE.md`.
+6. Read `docs/TECHNICAL_CONSTRAINTS.md`.
+7. Read `docs/EXPERIMENT_LOG.md`.
+8. Inspect actual Git branch, commit, working-tree status, and unfinished changes.
+9. Reconcile the documents with actual source code and experiment artifacts.
+10. Report a concise context-restoration summary before accepting new implementation work.
+
+Do not duplicate detailed experiment results in this file. Reference `PROJECT_HANDOVER.md` and the relevant technical documents.
+
 ## 1. Workspace Rule
 
 All project-owned documentation, research records, source code, and experiment records must remain under `/root/culi`.
@@ -74,4 +91,15 @@ This rule applies to every current and future implementation task.
 8. Before finishing, verify that source code, tests, configuration, and documentation are consistent.
 
 An implementation task is not complete until both the implementation and its corresponding documentation have been updated and checked.
+
+## 11. Additional Constraints and Approved Decisions
+
+- Approved decisions D-0001 through D-0015 are recorded in `docs/DECISIONS.md` and must be preserved.
+- No Docker or container orchestration may be introduced without explicit project-owner approval.
+- No external LLM or API may serve as the core intelligence; all core intelligence must reside in the unified neural model.
+- No neural architecture is predetermined; Transformer, RNN, SSM, MoE, recursive networks, and other approaches remain research subjects.
+- Git safety: never force-push, overwrite remote history, or discard project data.
+- Owner approval is required before starting any new milestone.
+- Do not claim that unimplemented features or capabilities are complete.
+- The 4 GB per-process RAM limit and CPU-only target remain in force.
 
