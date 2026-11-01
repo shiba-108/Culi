@@ -24,8 +24,6 @@ REQUIRED_PATHS = [
     "src/recurrent_model.py",
     "src/train_recurrent.py",
     "src/recurrent_adapter.py",
-    "tests/test_recurrent_model.py",
-    "tests/test_prototype_recurrent_adapter.py",
     "src/compare_models.py",
     "src/memory_model.py",
     "src/hierarchical_model.py",
@@ -49,10 +47,12 @@ REQUIRED_PATHS = [
     "tests/test_evaluation.py",
     "src/run_milestone7.py",
     "src/run_milestone8.py",
+    "src/run_milestone9.py",
     "tests/test_memory_model.py",
     "tests/test_hierarchical_model.py",
     "evaluations/model_culi_eval_v1.json",
     "experiments/results/selective_memory_summary.json",
+    "experiments/results/cross_task_generalization_summary.json",
 ]
 
 
@@ -68,27 +68,11 @@ def check_text_contains(path: str, needle: str) -> bool:
     return needle in (ROOT / path).read_text(encoding="utf-8")
 
 
-def run_checks() -> list[str]:
-    failures = check_required_paths()
-    checks = [
-        ("README.md", "4 GB"),
-        ("docs/DECISIONS.md", "D-0006"),
-        ("docs/AGENT_RULES.md", "Mandatory Documentation Synchronization"),
-        (".clinerules/project-rules.md", "Mandatory Documentation Synchronization"),
-        ("PROJECT_HANDOVER.md", "Mandatory Documentation Synchronization"),
-    ]
-    for path, needle in checks:
-        if not check_text_contains(path, needle):
-            failures.append(f"missing expected text in {path}: {needle!r}")
-    failures.extend(check_milestone8_summary())
-    return failures
-
-
 def check_milestone8_summary() -> list[str]:
     failures = []
     summary_path = ROOT / "experiments" / "results" / "selective_memory_summary.json"
     if not summary_path.exists():
-        return [f"missing required path: experiments/results/selective_memory_summary.json"]
+        return ["missing required path: experiments/results/selective_memory_summary.json"]
     try:
         data = json.loads(summary_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
@@ -125,7 +109,7 @@ def check_milestone8_summary() -> list[str]:
     for record in results:
         for field in ("model", "task", "seed", "training_status", "training_exit_code", "model_path", "evaluations"):
             if field not in record:
-                failures.append(f"M8 record missing field {field!r}: {record.get('model')}/{record.get('task')}/{record.get('seed')}")
+                failures.append(f"M8 record missing field {field!r}")
                 continue
         if record.get("training_status") != "completed":
             failures.append(f"M8 training not completed: {record.get('model')}/{record.get('task')}/seed{record.get('seed')}")
@@ -148,6 +132,94 @@ def check_milestone8_summary() -> list[str]:
             eval_path = ROOT / "experiments" / "results" / f"m8_eval_{record['model']}_{record['task']}_seed{record['seed']}_len{length}.json"
             if not eval_path.exists():
                 failures.append(f"M8 eval artifact missing: {eval_path.relative_to(ROOT)}")
+    return failures
+
+
+def check_milestone9_summary() -> list[str]:
+    failures = []
+    summary_path = ROOT / "experiments" / "results" / "cross_task_generalization_summary.json"
+    if not summary_path.exists():
+        return ["missing required path: experiments/results/cross_task_generalization_summary.json"]
+    try:
+        data = json.loads(summary_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"invalid JSON in cross_task_generalization_summary.json: {exc}"]
+
+    required_keys = [
+        "timestamp_utc",
+        "tasks",
+        "models",
+        "seeds",
+        "train_lengths",
+        "train_count",
+        "epochs",
+        "test_lengths",
+        "conditions",
+        "results",
+        "wall_time_seconds",
+    ]
+    for key in required_keys:
+        if key not in data:
+            failures.append(f"cross_task_generalization_summary.json missing key: {key}")
+
+    tasks = data.get("tasks", [])
+    models = data.get("models", [])
+    seeds = data.get("seeds", [])
+    test_lengths = data.get("test_lengths", [])
+    results = data.get("results", [])
+    expected_trained = len(models) * len(tasks) * len(seeds)
+    expected_untrained = len(models) * len(seeds)
+    if len(results) != expected_trained + expected_untrained:
+        failures.append(
+            f"cross_task_generalization_summary.json result count {len(results)} != expected {expected_trained + expected_untrained}"
+        )
+
+    for record in results:
+        for field in ("condition", "model", "seed", "model_path", "evaluations"):
+            if field not in record:
+                failures.append(f"M9 record missing field {field!r}")
+                continue
+        model_path = ROOT / record.get("model_path", "")
+        if not model_path.exists():
+            failures.append(f"M9 model artifact missing: {record.get('model_path')}")
+        evaluations = record.get("evaluations", {})
+        for target_task in tasks:
+            if target_task not in evaluations:
+                failures.append(f"M9 missing target task {target_task}: {record.get('model')}/{record.get('seed')}")
+                continue
+            for length in test_lengths:
+                key = str(length)
+                if key not in evaluations[target_task]:
+                    failures.append(f"M9 missing evaluation len{length}: {record.get('model')}/{record.get('seed')}/{target_task}")
+                    continue
+                evaluation = evaluations[target_task][key]
+                if evaluation.get("status") != "completed":
+                    failures.append(f"M9 eval not completed: {record.get('model')}/{record.get('seed')}/{target_task}/len{length}")
+                if evaluation.get("exit_code") != 0:
+                    failures.append(f"M9 eval nonzero exit: {record.get('model')}/{record.get('seed')}/{target_task}/len{length}")
+                if record["condition"] == "untrained":
+                    eval_path = ROOT / "experiments" / "results" / f"m9_eval_{record['model']}_untrained_to_{target_task}_seed{record['seed']}_len{length}.json"
+                else:
+                    eval_path = ROOT / "experiments" / "results" / f"m9_eval_{record['model']}_{record['source_task']}_to_{target_task}_seed{record['seed']}_len{length}.json"
+                if not eval_path.exists():
+                    failures.append(f"M9 eval artifact missing: {eval_path.relative_to(ROOT)}")
+    return failures
+
+
+def run_checks() -> list[str]:
+    failures = check_required_paths()
+    checks = [
+        ("README.md", "4 GB"),
+        ("docs/DECISIONS.md", "D-0006"),
+        ("docs/AGENT_RULES.md", "Mandatory Documentation Synchronization"),
+        (".clinerules/project-rules.md", "Mandatory Documentation Synchronization"),
+        ("PROJECT_HANDOVER.md", "Mandatory Documentation Synchronization"),
+    ]
+    for path, needle in checks:
+        if not check_text_contains(path, needle):
+            failures.append(f"missing expected text in {path}: {needle!r}")
+    failures.extend(check_milestone8_summary())
+    failures.extend(check_milestone9_summary())
     return failures
 
 

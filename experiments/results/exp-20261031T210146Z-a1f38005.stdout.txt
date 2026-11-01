@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T210146Z-27040
+model=memory seed-1
+overall_score=0.58
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.58
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=16908288
+output=/root/culi/experiments/results/m9_eval_memory_parity_to_parity_seed1_len16.json

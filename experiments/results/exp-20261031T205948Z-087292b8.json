@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T205948Z-087292b8",
+  "timestamp_utc": "2026-10-31T20:59:50.518526+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "recurrent",
+    "--task",
+    "multi_recall",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "80",
+    "--epochs",
+    "30",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "4",
+    "--seed",
+    "2",
+    "--output",
+    "models/m9_recurrent_multi_recall_seed2.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 1.887099354993552,
+  "peak_rss_bytes": 16777216,
+  "cpu_time_seconds": 1.80845,
+  "cpu_utilization_percent": 95.83226210186369,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=recurrent\ntask=multi_recall\ntrain_length=6\ntrain_count=78\ntrain_lengths=[4, 6, 8]\nepochs=30\nparameter_count=29\ninitial_loss=0.244948\nfinal_loss=0.164436\nparameters_changed=True\nruntime_seconds=1.220605\npeak_rss_bytes=16777216\nmodel_path=/root/culi/models/m9_recurrent_multi_recall_seed2.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

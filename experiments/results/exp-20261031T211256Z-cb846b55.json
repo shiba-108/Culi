@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T211256Z-cb846b55",
+  "timestamp_utc": "2026-10-31T21:12:58.503217+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "hierarchical",
+    "--task",
+    "recall_last",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "80",
+    "--epochs",
+    "30",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "4",
+    "--seed",
+    "2",
+    "--output",
+    "models/m9_hierarchical_recall_last_seed2.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 2.279226272017695,
+  "peak_rss_bytes": 18694144,
+  "cpu_time_seconds": 2.2634060000000003,
+  "cpu_utilization_percent": 99.30589287198372,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=hierarchical\ntask=recall_last\ntrain_length=6\ntrain_count=78\ntrain_lengths=[4, 6, 8]\nepochs=30\nparameter_count=89\ninitial_loss=0.282129\nfinal_loss=0.000582\nparameters_changed=True\nruntime_seconds=1.899882\npeak_rss_bytes=18694144\nmodel_path=/root/culi/models/m9_hierarchical_recall_last_seed2.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

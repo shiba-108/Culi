@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T211250Z-52448
+model=hierarchical seed-1
+overall_score=0.58
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.58
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=18694144
+output=/root/culi/experiments/results/m9_eval_hierarchical_recall_last_to_dependency_seed1_len6.json

@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T211514Z-1488
+model=hierarchical untrained-seed-2
+overall_score=0.64
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.64
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=19218432
+output=/root/culi/experiments/results/m9_eval_hierarchical_untrained_to_dependency_seed2_len16.json

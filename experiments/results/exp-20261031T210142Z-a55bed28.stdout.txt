@@ -1,0 +1,13 @@
+model=memory
+task=parity
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=97
+initial_loss=0.252008
+final_loss=0.229268
+parameters_changed=True
+runtime_seconds=2.098752
+peak_rss_bytes=16908288
+model_path=/root/culi/models/m9_memory_parity_seed1.json

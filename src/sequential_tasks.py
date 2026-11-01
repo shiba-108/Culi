@@ -28,11 +28,17 @@ def generate_multi_recall_example(rng: random.Random, length: int) -> tuple[list
     return bits, bits[0] ^ bits[middle]
 
 
+def generate_recall_last_example(rng: random.Random, length: int) -> tuple[list[int], int]:
+    bits = [rng.randint(0, 1) for _ in range(length)]
+    return bits, bits[-1]
+
+
 TASK_GENERATORS = {
     "parity": generate_parity_example,
     "delayed_recall": generate_delayed_recall_example,
     "dependency": generate_dependency_example,
     "multi_recall": generate_multi_recall_example,
+    "recall_last": generate_recall_last_example,
 }
 
 

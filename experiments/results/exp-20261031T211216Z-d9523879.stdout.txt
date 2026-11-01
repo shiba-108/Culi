@@ -1,0 +1,13 @@
+model=hierarchical
+task=multi_recall
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=89
+initial_loss=0.248392
+final_loss=0.084615
+parameters_changed=True
+runtime_seconds=1.734409
+peak_rss_bytes=18694144
+model_path=/root/culi/models/m9_hierarchical_multi_recall_seed2.json

@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261031T210950Z-3d3b1173",
+  "timestamp_utc": "2026-10-31T21:09:54.696290+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "hierarchical",
+    "--task",
+    "parity",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "80",
+    "--epochs",
+    "30",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "4",
+    "--seed",
+    "2",
+    "--output",
+    "models/m9_hierarchical_parity_seed2.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 3.975621093995869,
+  "peak_rss_bytes": 18563072,
+  "cpu_time_seconds": 3.772269,
+  "cpu_utilization_percent": 94.88502326584948,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=hierarchical\ntask=parity\ntrain_length=6\ntrain_count=78\ntrain_lengths=[4, 6, 8]\nepochs=30\nparameter_count=89\ninitial_loss=0.261291\nfinal_loss=0.202182\nparameters_changed=True\nruntime_seconds=3.107834\npeak_rss_bytes=18563072\nmodel_path=/root/culi/models/m9_hierarchical_parity_seed2.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

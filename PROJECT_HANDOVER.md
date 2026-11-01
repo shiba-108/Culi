@@ -61,6 +61,7 @@ Core requirements:
 | D-0013 | Selective memory experiment (D-0013): recurrent, gated-memory, and compact gated-memory candidates, multiple retention distances, interference tests, deterministic seeds, and longer unseen sequences. |
 | D-0014 | Clarification of Milestone 8 candidate set: recurrent, gated-memory, and compact gated-memory; hierarchical-state not included in Milestone 8. |
 | D-0015 | Git/GitHub adoption: initialize Git and adopt `shiba-108/Culi`; baseline commit `48c792697b729a65566fdd56bfa9a290a902627e` on branch `main`. |
+| D-0016 | Milestone 9 cross-task generalization experiment: trained specialists and untrained controls across five synthetic tasks, multiple lengths, and multiple seeds. |
 
 ### 1.3 Operational 4 GB Definition (D-0005)
 
@@ -77,7 +78,7 @@ Core requirements:
 
 ### 2.1 Status
 
-- Phase: Research Foundation and experimental milestones through Milestone 8 complete; documentation reconciled; Git baseline adopted.
+- Phase: Research Foundation and experimental milestones through Milestone 9 complete; documentation in progress; Git baseline adopted.
 - Architecture: No architecture selected or endorsed. Experimental prototypes only.
 - Git: Initialized. Branch `main`. Latest baseline commit `48c792697b729a65566fdd56bfa9a290a902627e`. Remote `origin` (`git@github-culi:shiba-108/Culi.git`). Working tree last verified clean.
 - GitHub authentication: dedicated deploy key `culi_github_deploy` (private key not included in repository).
@@ -119,6 +120,15 @@ Core requirements:
   - Parity remained near chance for all candidates.
 - Resource use: peak training RSS max ~16.5 MB; peak evaluation RSS max ~16.4 MB; all runs far below the 4 GB per-process limit.
 - Limitations: synthetic tasks only; no natural language, code, or general intelligence evaluation; no final architecture selected; D-0013 wording reconciled by D-0014.
+
+### 2.4 Milestone 9 (Cross-Task Generalization) — Verified Findings and Limitations
+
+- Candidates: recurrent, gated-memory, compact gated-memory (hidden size 2), hierarchical-state.
+- Tasks: parity, delayed recall, dependency, multi-recall, recall-last. Train lengths 4/6/8; evaluation lengths 4, 6, 8, 10, 12, 16; 3 seeds; 80 training samples; 30 epochs.
+- Trained specialists scored near 1.00 on their source task and near the untrained baseline on most held-out tasks, indicating limited cross-task transfer.
+- Gated-memory and hierarchical models showed modestly higher scores on recall-related held-out tasks than recurrent and compact models.
+- Resource use: peak training RSS max ~18.7 MB; peak evaluation RSS max ~19.2 MB; all runs far below the 4 GB per-process limit.
+- Limitations: synthetic tasks only; no natural language, code, or general intelligence evaluation; no final architecture selected.
 
 ## 3. Research Findings and Unresolved Questions
 

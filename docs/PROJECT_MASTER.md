@@ -52,7 +52,7 @@ Transformer, RNN, SSM, MoE, recursive networks, and other existing approaches ar
 
 ## 6. Current Status
 
-Initialization and experimental foundation are complete through Milestone 8. A standard-library-only development foundation exists under `src/` and `tests/` for repository validation, peak-RSS measurement, experiment running, evaluation, and experimental neural prototypes. Experimental prototypes (feedforward, recurrent, gated-memory, hierarchical-state, compact gated-memory) have been implemented and evaluated on synthetic tasks through Milestone 8. No final neural architecture has been selected, and no result constitutes a claim of general intelligence. No packages have been installed, no external data or weights downloaded, no paid APIs called, no VPS configuration modified, Git repository initialized and baseline commit created.
+Initialization and experimental foundation are complete through Milestone 9. A standard-library-only development foundation exists under `src/` and `tests/` for repository validation, peak-RSS measurement, experiment running, evaluation, and experimental neural prototypes. Experimental prototypes (feedforward, recurrent, gated-memory, hierarchical-state, compact gated-memory) have been implemented and evaluated on synthetic tasks through Milestone 9. Milestone 9 evaluates cross-task generalization across parity, delayed recall, dependency, multi-recall, and recall-last tasks. No final neural architecture has been selected, and no result constitutes a claim of general intelligence. No packages have been installed, no external data or weights downloaded, no paid APIs called, no VPS configuration modified, Git repository initialized and baseline commit created.
 
 ## 7. Unresolved Technical Questions
 

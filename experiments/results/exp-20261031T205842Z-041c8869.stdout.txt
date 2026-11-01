@@ -1,0 +1,13 @@
+model=recurrent
+task=dependency
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=29
+initial_loss=0.251823
+final_loss=0.236329
+parameters_changed=True
+runtime_seconds=0.998177
+peak_rss_bytes=16777216
+model_path=/root/culi/models/m9_recurrent_dependency_seed2.json

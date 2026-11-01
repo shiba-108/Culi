@@ -1,0 +1,13 @@
+model=memory
+task=recall_last
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=97
+initial_loss=0.262462
+final_loss=0.000740
+parameters_changed=True
+runtime_seconds=2.474980
+peak_rss_bytes=17956864
+model_path=/root/culi/models/m9_memory_recall_last_seed1.json

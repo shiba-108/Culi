@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T210638Z-90736
+model=compact_memory seed-1
+overall_score=0.48
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.48
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=17956864
+output=/root/culi/experiments/results/m9_eval_compact_memory_dependency_to_delayed_recall_seed1_len8.json

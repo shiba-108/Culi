@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T211222Z-26496
+model=hierarchical seed-2
+overall_score=0.32
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.32
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=18694144
+output=/root/culi/experiments/results/m9_eval_hierarchical_multi_recall_to_delayed_recall_seed2_len10.json

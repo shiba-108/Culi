@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T211516Z-91696
+model=hierarchical untrained-seed-2
+overall_score=0.54
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.54
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=19218432
+output=/root/culi/experiments/results/m9_eval_hierarchical_untrained_to_multi_recall_seed2_len10.json

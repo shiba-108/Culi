@@ -1,0 +1,13 @@
+evaluation_id=eval-20261031T210244Z-24144
+model=memory seed-2
+overall_score=1.0
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=1.0
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=17170432
+output=/root/culi/experiments/results/m9_eval_memory_delayed_recall_to_delayed_recall_seed2_len4.json

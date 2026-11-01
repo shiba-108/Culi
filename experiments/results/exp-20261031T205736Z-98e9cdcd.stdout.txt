@@ -1,0 +1,13 @@
+model=recurrent
+task=delayed_recall
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=29
+initial_loss=0.242865
+final_loss=0.000563
+parameters_changed=True
+runtime_seconds=0.677061
+peak_rss_bytes=16777216
+model_path=/root/culi/models/m9_recurrent_delayed_recall_seed1.json

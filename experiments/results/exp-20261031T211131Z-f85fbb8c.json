@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T211131Z-f85fbb8c",
+  "timestamp_utc": "2026-10-31T21:11:32.204630+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_multi_recall_len6_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialHierarchicalAdapter",
+    "--model-path",
+    "/root/culi/models/m9_hierarchical_dependency_seed1.json",
+    "--model-name",
+    "hierarchical",
+    "--model-version",
+    "seed-1",
+    "--output",
+    "/root/culi/experiments/results/m9_eval_hierarchical_dependency_to_multi_recall_seed1_len6.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.40946633997373283,
+  "peak_rss_bytes": 18694144,
+  "cpu_time_seconds": 0.404792,
+  "cpu_utilization_percent": 98.85843120242002,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T211132Z-11776\nmodel=hierarchical seed-1\noverall_score=0.44\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=0.44\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=18694144\noutput=/root/culi/experiments/results/m9_eval_hierarchical_dependency_to_multi_recall_seed1_len6.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

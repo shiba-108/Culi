@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261031T211444Z-195dfe96",
+  "timestamp_utc": "2026-10-31T21:14:45.096096+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_recall_last_len4_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialMemoryAdapter",
+    "--model-path",
+    "/root/culi/models/m9_compact_memory_untrained_seed2.json",
+    "--model-name",
+    "compact_memory",
+    "--model-version",
+    "untrained-seed-2",
+    "--output",
+    "/root/culi/experiments/results/m9_eval_compact_memory_untrained_to_recall_last_seed2_len4.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.30880030000116676,
+  "peak_rss_bytes": 19218432,
+  "cpu_time_seconds": 0.304488,
+  "cpu_utilization_percent": 98.60353114904666,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261031T211445Z-23568\nmodel=compact_memory untrained-seed-2\noverall_score=0.46\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=0.46\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=19218432\noutput=/root/culi/experiments/results/m9_eval_compact_memory_untrained_to_recall_last_seed2_len4.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

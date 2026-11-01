@@ -94,7 +94,7 @@ An implementation task is not complete until both the implementation and its cor
 
 ## 11. Additional Constraints and Approved Decisions
 
-- Approved decisions D-0001 through D-0015 are recorded in `docs/DECISIONS.md` and must be preserved.
+- Approved decisions D-0001 through D-0016 are recorded in `docs/DECISIONS.md` and must be preserved.
 - No Docker or container orchestration may be introduced without explicit project-owner approval.
 - No external LLM or API may serve as the core intelligence; all core intelligence must reside in the unified neural model.
 - No neural architecture is predetermined; Transformer, RNN, SSM, MoE, recursive networks, and other approaches remain research subjects.

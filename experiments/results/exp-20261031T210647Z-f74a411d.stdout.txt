@@ -1,0 +1,13 @@
+model=memory
+task=dependency
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=33
+initial_loss=0.254511
+final_loss=0.217883
+parameters_changed=True
+runtime_seconds=0.981333
+peak_rss_bytes=18038784
+model_path=/root/culi/models/m9_compact_memory_dependency_seed2.json
