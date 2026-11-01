@@ -1,0 +1,21 @@
+{
+  "evaluation_id": "eval-collab-1793511221",
+  "timestamp_utc": "2026-11-01T05:33:41Z",
+  "model_name": "collaborative-memory",
+  "model_version": "no_shared_memory-seed-1",
+  "dataset_id": "seq_compose_all_len4_v1",
+  "dataset_version": "1.0",
+  "case_results": [],
+  "category_scores": {
+    "reasoning": 0.94
+  },
+  "overall_score": 0.94,
+  "total_runtime_seconds": 0.09281215199735016,
+  "peak_rss_bytes": 17301504,
+  "manual_review_count": 0,
+  "activated_specialists_mean": 5.0,
+  "communication_ops_total": 300,
+  "routing_accuracy": 1.0,
+  "mode": "no_shared_memory",
+  "task": "compose_all"
+}

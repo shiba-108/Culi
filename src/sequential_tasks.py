@@ -33,12 +33,60 @@ def generate_recall_last_example(rng: random.Random, length: int) -> tuple[list[
     return bits, bits[-1]
 
 
+def generate_compose_parity_delayed_example(rng: random.Random, length: int) -> tuple[list[int], int]:
+    bits = [rng.randint(0, 1) for _ in range(length)]
+    parity = sum(bits) % 2
+    delayed = bits[0]
+    return bits, parity ^ delayed
+
+
+def generate_compose_dependency_multi_example(rng: random.Random, length: int) -> tuple[list[int], int]:
+    bits = [rng.randint(0, 1) for _ in range(length)]
+    dependency = bits[0] ^ bits[-1]
+    middle = length // 2
+    multi = bits[0] ^ bits[middle]
+    return bits, dependency ^ multi
+
+
+def generate_compose_parity_delayed_dependency_example(rng: random.Random, length: int) -> tuple[list[int], int]:
+    bits = [rng.randint(0, 1) for _ in range(length)]
+    parity = sum(bits) % 2
+    delayed = bits[0]
+    dependency = bits[0] ^ bits[-1]
+    return bits, parity ^ delayed ^ dependency
+
+
+def generate_compose_delayed_multi_recalllast_example(rng: random.Random, length: int) -> tuple[list[int], int]:
+    bits = [rng.randint(0, 1) for _ in range(length)]
+    delayed = bits[0]
+    middle = length // 2
+    multi = bits[0] ^ bits[middle]
+    recall_last = bits[-1]
+    return bits, delayed ^ multi ^ recall_last
+
+
+def generate_compose_all_example(rng: random.Random, length: int) -> tuple[list[int], int]:
+    bits = [rng.randint(0, 1) for _ in range(length)]
+    parity = sum(bits) % 2
+    delayed = bits[0]
+    dependency = bits[0] ^ bits[-1]
+    middle = length // 2
+    multi = bits[0] ^ bits[middle]
+    recall_last = bits[-1]
+    return bits, parity ^ delayed ^ dependency ^ multi ^ recall_last
+
+
 TASK_GENERATORS = {
     "parity": generate_parity_example,
     "delayed_recall": generate_delayed_recall_example,
     "dependency": generate_dependency_example,
     "multi_recall": generate_multi_recall_example,
     "recall_last": generate_recall_last_example,
+    "compose_parity_delayed": generate_compose_parity_delayed_example,
+    "compose_dependency_multi": generate_compose_dependency_multi_example,
+    "compose_parity_delayed_dependency": generate_compose_parity_delayed_dependency_example,
+    "compose_delayed_multi_recalllast": generate_compose_delayed_multi_recalllast_example,
+    "compose_all": generate_compose_all_example,
 }
 
 

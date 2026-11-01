@@ -1,0 +1,21 @@
+{
+  "evaluation_id": "eval-collab-1793511159",
+  "timestamp_utc": "2026-11-01T05:32:39Z",
+  "model_name": "collaborative-memory",
+  "model_version": "no_shared_memory-seed-2",
+  "dataset_id": "seq_compose_parity_delayed_dependency_len10_v1",
+  "dataset_version": "1.0",
+  "case_results": [],
+  "category_scores": {
+    "reasoning": 0.46
+  },
+  "overall_score": 0.46,
+  "total_runtime_seconds": 0.17067334498278797,
+  "peak_rss_bytes": 17170432,
+  "manual_review_count": 0,
+  "activated_specialists_mean": 3.0,
+  "communication_ops_total": 200,
+  "routing_accuracy": 1.0,
+  "mode": "no_shared_memory",
+  "task": "compose_parity_delayed_dependency"
+}

@@ -1,0 +1,6 @@
+evaluation_id=eval-collab-1793511147
+model=collaborative-memory all_specialists-seed-1
+overall_score=0.56
+manual_review_count=0
+peak_rss_bytes=17170432
+output=/root/culi/experiments/results/m10_eval_collab_all_specialists_compose_parity_delayed_dependency_seed1_len4.json

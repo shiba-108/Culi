@@ -1,0 +1,6 @@
+evaluation_id=eval-collab-1793511091
+model=collaborative-memory no_collaboration-seed-2
+overall_score=0.4
+manual_review_count=0
+peak_rss_bytes=17039360
+output=/root/culi/experiments/results/m10_eval_collab_no_collaboration_compose_parity_delayed_seed2_len12.json

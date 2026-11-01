@@ -1,0 +1,606 @@
+{
+  "dataset_id": "seq_compose_dependency_multi_len10_v1",
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "compose_dependency_multi-0000",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0001",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0002",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0003",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1 0 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0004",
+      "category": "reasoning",
+      "input": "1 0 0 0 0 0 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0005",
+      "category": "reasoning",
+      "input": "0 1 1 1 0 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0006",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0007",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0008",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0009",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0010",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0011",
+      "category": "reasoning",
+      "input": "1 0 1 1 1 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0012",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0013",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0014",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0015",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0016",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0017",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0018",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0019",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0 0 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0020",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0021",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0022",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0023",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0024",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0025",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 1 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0026",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0027",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0028",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 0 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0029",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0030",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0031",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 1 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0032",
+      "category": "reasoning",
+      "input": "0 1 0 1 1 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0033",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0034",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 1 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0035",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0036",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0037",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0038",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 0 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0039",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0040",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0041",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0042",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0043",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0044",
+      "category": "reasoning",
+      "input": "1 0 0 0 0 1 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0045",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0046",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0047",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0048",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_dependency_multi-0049",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_dependency_multi",
+        "length": 10,
+        "synthetic": true
+      }
+    }
+  ]
+}

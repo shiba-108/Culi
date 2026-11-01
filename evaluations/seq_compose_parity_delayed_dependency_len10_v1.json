@@ -1,0 +1,606 @@
+{
+  "dataset_id": "seq_compose_parity_delayed_dependency_len10_v1",
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "compose_parity_delayed_dependency-0000",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0001",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0002",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 0 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0003",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0004",
+      "category": "reasoning",
+      "input": "1 0 0 0 0 0 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0005",
+      "category": "reasoning",
+      "input": "0 1 1 1 0 0 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0006",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0007",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0008",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0009",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 1 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0010",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0011",
+      "category": "reasoning",
+      "input": "1 0 1 1 1 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0012",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0013",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0014",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 1 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0015",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0016",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0017",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0018",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 0 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0019",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0020",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 1 1 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0021",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0022",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0023",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 0 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0024",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0025",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 1 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0026",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0027",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0028",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 0 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0029",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0030",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0031",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 1 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0032",
+      "category": "reasoning",
+      "input": "0 1 0 1 1 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0033",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0034",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 1 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0035",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 1 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0036",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0037",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0038",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 0 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0039",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0040",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0041",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0042",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0043",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0044",
+      "category": "reasoning",
+      "input": "1 0 0 0 0 1 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0045",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0046",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0047",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0048",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed_dependency-0049",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 1 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed_dependency",
+        "length": 10,
+        "synthetic": true
+      }
+    }
+  ]
+}

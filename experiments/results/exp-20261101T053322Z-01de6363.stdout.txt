@@ -1,0 +1,13 @@
+evaluation_id=eval-20261101T053323Z-4048
+model=memory independent-seed-3
+overall_score=0.48
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.48
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=17301504
+output=/root/culi/experiments/results/m10_eval_independent_compose_delayed_multi_recalllast_seed3_len4.json

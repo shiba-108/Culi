@@ -1,0 +1,13 @@
+model=memory
+task=dependency
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=97
+initial_loss=0.246320
+final_loss=0.204847
+parameters_changed=True
+runtime_seconds=2.099793
+peak_rss_bytes=17039360
+model_path=/root/culi/models/m10_base_memory_dependency_seed2.json

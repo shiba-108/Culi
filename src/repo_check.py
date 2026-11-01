@@ -35,8 +35,6 @@ REQUIRED_PATHS = [
     "src/sequential_tasks.py",
     "src/sequential_adapters.py",
     "src/run_milestone6.py",
-    "src/memory_adapter.py",
-    "src/hierarchical_adapter.py",
     "src/prototype_adapter.py",
     "src/experiment_runner.py",
     "tests/test_neural_model.py",
@@ -48,11 +46,13 @@ REQUIRED_PATHS = [
     "src/run_milestone7.py",
     "src/run_milestone8.py",
     "src/run_milestone9.py",
+    "src/run_milestone10.py",
     "tests/test_memory_model.py",
     "tests/test_hierarchical_model.py",
     "evaluations/model_culi_eval_v1.json",
     "experiments/results/selective_memory_summary.json",
     "experiments/results/cross_task_generalization_summary.json",
+    "experiments/results/collaborative_specialist_summary.json",
 ]
 
 
@@ -77,35 +77,16 @@ def check_milestone8_summary() -> list[str]:
         data = json.loads(summary_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return [f"invalid JSON in selective_memory_summary.json: {exc}"]
-
-    required_keys = [
-        "timestamp_utc",
-        "tasks",
-        "models",
-        "seeds",
-        "train_lengths",
-        "train_count",
-        "epochs",
-        "test_lengths",
-        "results",
-        "wall_time_seconds",
-    ]
-    for key in required_keys:
+    for key in ("timestamp_utc", "tasks", "models", "seeds", "train_lengths", "train_count", "epochs", "test_lengths", "results", "wall_time_seconds"):
         if key not in data:
             failures.append(f"selective_memory_summary.json missing key: {key}")
-
     models = data.get("models", [])
     tasks = data.get("tasks", [])
     seeds = data.get("seeds", [])
     test_lengths = data.get("test_lengths", [])
     results = data.get("results", [])
-
-    expected_count = len(models) * len(tasks) * len(seeds)
-    if len(results) != expected_count:
-        failures.append(
-            f"selective_memory_summary.json result count {len(results)} != expected {expected_count}"
-        )
-
+    if len(results) != len(models) * len(tasks) * len(seeds):
+        failures.append(f"selective_memory_summary.json result count {len(results)} != expected {len(models) * len(tasks) * len(seeds)}")
     for record in results:
         for field in ("model", "task", "seed", "training_status", "training_exit_code", "model_path", "evaluations"):
             if field not in record:
@@ -144,24 +125,9 @@ def check_milestone9_summary() -> list[str]:
         data = json.loads(summary_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return [f"invalid JSON in cross_task_generalization_summary.json: {exc}"]
-
-    required_keys = [
-        "timestamp_utc",
-        "tasks",
-        "models",
-        "seeds",
-        "train_lengths",
-        "train_count",
-        "epochs",
-        "test_lengths",
-        "conditions",
-        "results",
-        "wall_time_seconds",
-    ]
-    for key in required_keys:
+    for key in ("timestamp_utc", "tasks", "models", "seeds", "train_lengths", "train_count", "epochs", "test_lengths", "conditions", "results", "wall_time_seconds"):
         if key not in data:
             failures.append(f"cross_task_generalization_summary.json missing key: {key}")
-
     tasks = data.get("tasks", [])
     models = data.get("models", [])
     seeds = data.get("seeds", [])
@@ -170,10 +136,7 @@ def check_milestone9_summary() -> list[str]:
     expected_trained = len(models) * len(tasks) * len(seeds)
     expected_untrained = len(models) * len(seeds)
     if len(results) != expected_trained + expected_untrained:
-        failures.append(
-            f"cross_task_generalization_summary.json result count {len(results)} != expected {expected_trained + expected_untrained}"
-        )
-
+        failures.append(f"cross_task_generalization_summary.json result count {len(results)} != expected {expected_trained + expected_untrained}")
     for record in results:
         for field in ("condition", "model", "seed", "model_path", "evaluations"):
             if field not in record:
@@ -206,6 +169,32 @@ def check_milestone9_summary() -> list[str]:
     return failures
 
 
+def check_milestone10_summary() -> list[str]:
+    failures = []
+    summary_path = ROOT / "experiments" / "results" / "collaborative_specialist_summary.json"
+    if not summary_path.exists():
+        return ["missing required path: experiments/results/collaborative_specialist_summary.json"]
+    try:
+        data = json.loads(summary_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"invalid JSON in collaborative_specialist_summary.json: {exc}"]
+    for key in ("timestamp_utc", "base_tasks", "composite_tasks", "models", "seeds", "results", "wall_time_seconds"):
+        if key not in data:
+            failures.append(f"collaborative_specialist_summary.json missing key: {key}")
+    results = data.get("results", [])
+    if not results:
+        failures.append("collaborative_specialist_summary.json has no results")
+    for record in results:
+        if "evaluations" not in record:
+            failures.append("M10 record missing evaluations")
+            continue
+        for task, lengths in record["evaluations"].items():
+            for length, evaluation in lengths.items():
+                if evaluation.get("status") != "completed" or evaluation.get("exit_code") != 0:
+                    failures.append(f"M10 incomplete evaluation: {record.get('condition')}/{record.get('task')}/{record.get('seed')}/{task}/{length}")
+    return failures
+
+
 def run_checks() -> list[str]:
     failures = check_required_paths()
     checks = [
@@ -220,6 +209,7 @@ def run_checks() -> list[str]:
             failures.append(f"missing expected text in {path}: {needle!r}")
     failures.extend(check_milestone8_summary())
     failures.extend(check_milestone9_summary())
+    failures.extend(check_milestone10_summary())
     return failures
 
 

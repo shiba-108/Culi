@@ -1,0 +1,13 @@
+model=memory
+task=compose_dependency_multi
+train_length=6
+train_count=78
+train_lengths=[4, 6, 8]
+epochs=30
+parameter_count=97
+initial_loss=0.252774
+final_loss=0.165692
+parameters_changed=True
+runtime_seconds=2.337047
+peak_rss_bytes=17039360
+model_path=/root/culi/models/m10_unified_memory_compose_dependency_multi_seed2.json

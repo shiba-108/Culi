@@ -1,0 +1,606 @@
+{
+  "dataset_id": "seq_compose_all_len16_v1",
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "compose_all-0000",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 0 0 1 0 1 1 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0001",
+      "category": "reasoning",
+      "input": "0 0 0 0 1 0 0 1 1 0 1 1 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0002",
+      "category": "reasoning",
+      "input": "0 1 1 1 0 0 1 0 1 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0003",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 1 0 0 1 0 1 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0004",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 1 0 0 1 0 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0005",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 1 1 0 0 1 1 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0006",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1 0 0 1 1 1 0 0 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0007",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1 1 0 1 1 1 1 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0008",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 0 0 1 0 1 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0009",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 1 0 0 1 1 0 0 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0010",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 0 0 1 1 0 1 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0011",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1 1 1 0 0 0 1 1 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0012",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 0 0 1 0 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0013",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 1 1 0 1 1 0 0 0 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0014",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 0 1 0 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0015",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 0 1 1 1 1 1 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0016",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 0 0 1 0 1 0 0 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0017",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 0 1 1 0 0 0 1 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0018",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 1 1 0 0 1 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0019",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 0 0 1 1 0 1 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0020",
+      "category": "reasoning",
+      "input": "0 1 0 1 1 0 0 1 1 1 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0021",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 1 0 1 1 1 0 0 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0022",
+      "category": "reasoning",
+      "input": "0 1 0 1 1 0 1 1 1 0 1 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0023",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0024",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 0 1 0 1 0 0 0 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0025",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 0 1 1 0 0 1 0 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0026",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 1 0 1 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0027",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 0 0 0 1 0 0 0 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0028",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 1 1 0 1 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0029",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 1 0 1 0 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0030",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 1 1 0 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0031",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 1 1 1 0 0 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0032",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 0 1 1 0 1 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0033",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 0 0 1 0 1 0 1 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0034",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 0 0 0 1 0 1 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0035",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 0 1 0 1 0 1 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0036",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1 0 1 1 0 1 0 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0037",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 0 0 0 0 1 1 0 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0038",
+      "category": "reasoning",
+      "input": "1 0 1 1 1 0 0 0 0 1 0 1 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0039",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 0 1 1 0 0 0 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0040",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 0 0 1 1 0 1 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0041",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1 1 1 1 0 1 1 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0042",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 0 0 1 1 1 0 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0043",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 1 1 0 0 1 0 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0044",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 1 0 0 0 1 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0045",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 1 1 1 0 0 0 1 0 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0046",
+      "category": "reasoning",
+      "input": "1 0 0 0 1 0 1 1 0 1 1 1 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0047",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0048",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 0 0 1 0 0 0 0 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_all-0049",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 1 0 0 0 1 1 0 0 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_all",
+        "length": 16,
+        "synthetic": true
+      }
+    }
+  ]
+}

@@ -44,7 +44,7 @@ def train_model(model, model_kind: str, samples: list[tuple[list, int]], epochs:
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Train a model on a synthetic sequential task")
     parser.add_argument("--model", required=True, choices=["feedforward", "recurrent", "recurrent_bounded", "memory", "hierarchical"])
-    parser.add_argument("--task", required=True, choices=["parity", "delayed_recall", "dependency", "multi_recall", "recall_last"])
+    parser.add_argument("--task", required=True, choices=["parity", "delayed_recall", "dependency", "multi_recall", "recall_last", "compose_parity_delayed", "compose_dependency_multi", "compose_parity_delayed_dependency", "compose_delayed_multi_recalllast", "compose_all"])
     parser.add_argument("--train-length", type=int, default=6)
     parser.add_argument("--train-lengths", default=None, help="Comma-separated training lengths, e.g. 4,6,8")
     parser.add_argument("--train-count", type=int, default=200)

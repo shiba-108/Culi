@@ -1,0 +1,52 @@
+{
+  "experiment_id": "exp-20261101T053103Z-718b4fa5",
+  "timestamp_utc": "2026-11-01T05:31:06.143044+00:00",
+  "command": [
+    "python3",
+    "src/train_sequential.py",
+    "--model",
+    "memory",
+    "--task",
+    "compose_dependency_multi",
+    "--train-lengths",
+    "4,6,8",
+    "--train-count",
+    "80",
+    "--epochs",
+    "30",
+    "--learning-rate",
+    "0.1",
+    "--hidden-size",
+    "4",
+    "--seed",
+    "3",
+    "--output",
+    "models/m10_unified_memory_compose_dependency_multi_seed3.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 2.5187756640370935,
+  "peak_rss_bytes": 17039360,
+  "cpu_time_seconds": 2.5069079999999997,
+  "cpu_utilization_percent": 99.52883203508198,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "model=memory\ntask=compose_dependency_multi\ntrain_length=6\ntrain_count=78\ntrain_lengths=[4, 6, 8]\nepochs=30\nparameter_count=97\ninitial_loss=0.250578\nfinal_loss=0.240959\nparameters_changed=True\nruntime_seconds=2.198351\npeak_rss_bytes=17039360\nmodel_path=/root/culi/models/m10_unified_memory_compose_dependency_multi_seed3.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

@@ -1,0 +1,6 @@
+evaluation_id=eval-collab-1793511198
+model=collaborative-memory all_specialists-seed-2
+overall_score=0.7
+manual_review_count=0
+peak_rss_bytes=17301504
+output=/root/culi/experiments/results/m10_eval_collab_all_specialists_compose_delayed_multi_recalllast_seed2_len8.json

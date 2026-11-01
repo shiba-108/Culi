@@ -1,0 +1,6 @@
+evaluation_id=eval-collab-1793511113
+model=collaborative-memory no_collaboration-seed-1
+overall_score=0.54
+manual_review_count=0
+peak_rss_bytes=17039360
+output=/root/culi/experiments/results/m10_eval_collab_no_collaboration_compose_dependency_multi_seed1_len4.json

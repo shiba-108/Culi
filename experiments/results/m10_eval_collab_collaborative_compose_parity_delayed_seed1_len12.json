@@ -1,0 +1,21 @@
+{
+  "evaluation_id": "eval-collab-1793511072",
+  "timestamp_utc": "2026-11-01T05:31:12Z",
+  "model_name": "collaborative-memory",
+  "model_version": "collaborative-seed-1",
+  "dataset_id": "seq_compose_parity_delayed_len12_v1",
+  "dataset_version": "1.0",
+  "case_results": [],
+  "category_scores": {
+    "reasoning": 0.56
+  },
+  "overall_score": 0.56,
+  "total_runtime_seconds": 0.03137820097617805,
+  "peak_rss_bytes": 17039360,
+  "manual_review_count": 0,
+  "activated_specialists_mean": 2.0,
+  "communication_ops_total": 150,
+  "routing_accuracy": 1.0,
+  "mode": "collaborative",
+  "task": "compose_parity_delayed"
+}

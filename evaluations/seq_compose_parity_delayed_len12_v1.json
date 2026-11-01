@@ -1,0 +1,606 @@
+{
+  "dataset_id": "seq_compose_parity_delayed_len12_v1",
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "compose_parity_delayed-0000",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 0 0 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0001",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 0 0 0 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0002",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 0 0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0003",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0004",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 1 0 0 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0005",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 0 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0006",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 0 1 1 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0007",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1 1 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0008",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1 0 0 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0009",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 1 1 0 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0010",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 0 0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0011",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 1 0 1 0 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0012",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 1 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0013",
+      "category": "reasoning",
+      "input": "1 1 1 0 0 0 1 1 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0014",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0 0 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0015",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 0 0 1 1 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0016",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 0 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0017",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 1 0 1 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0018",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 1 0 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0019",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0020",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 0 1 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0021",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 1 0 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0022",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 1 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0023",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 0 0 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0024",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0025",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 1 1 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0026",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0 1 1 0 1 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0027",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 1 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0028",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 1 0 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0029",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0030",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0031",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0032",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 0 1 0 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0033",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 1 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0034",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0035",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0036",
+      "category": "reasoning",
+      "input": "1 1 0 1 1 0 0 0 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0037",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 1 1 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0038",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 1 1 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0039",
+      "category": "reasoning",
+      "input": "0 0 1 0 1 0 1 0 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0040",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0041",
+      "category": "reasoning",
+      "input": "1 0 1 1 1 0 1 0 1 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0042",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 1 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0043",
+      "category": "reasoning",
+      "input": "1 0 1 1 0 1 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0044",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 0 0 1 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0045",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 1 1 0 1 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0046",
+      "category": "reasoning",
+      "input": "0 1 0 1 1 0 1 0 0 1 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0047",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 1 0 1 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0048",
+      "category": "reasoning",
+      "input": "0 1 1 0 0 1 0 1 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_parity_delayed-0049",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1 0 0 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_parity_delayed",
+        "length": 12,
+        "synthetic": true
+      }
+    }
+  ]
+}

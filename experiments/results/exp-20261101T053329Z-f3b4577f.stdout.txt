@@ -1,0 +1,6 @@
+evaluation_id=eval-collab-1793511209
+model=collaborative-memory no_shared_memory-seed-3
+overall_score=0.38
+manual_review_count=0
+peak_rss_bytes=17301504
+output=/root/culi/experiments/results/m10_eval_collab_no_shared_memory_compose_delayed_multi_recalllast_seed3_len16.json

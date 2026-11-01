@@ -1,0 +1,606 @@
+{
+  "dataset_id": "seq_compose_delayed_multi_recalllast_len10_v1",
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "compose_delayed_multi_recalllast-0000",
+      "category": "reasoning",
+      "input": "0 1 1 0 1 0 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0001",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 0 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0002",
+      "category": "reasoning",
+      "input": "1 0 0 1 1 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0003",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 1 0 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0004",
+      "category": "reasoning",
+      "input": "1 0 0 0 0 0 0 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0005",
+      "category": "reasoning",
+      "input": "0 1 1 1 0 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0006",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0007",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0008",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0009",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0010",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 1 1 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0011",
+      "category": "reasoning",
+      "input": "1 0 1 1 1 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0012",
+      "category": "reasoning",
+      "input": "1 1 1 1 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0013",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0014",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0015",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 1 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0016",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0017",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0018",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0019",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 0 0 1 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0020",
+      "category": "reasoning",
+      "input": "0 1 0 1 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0021",
+      "category": "reasoning",
+      "input": "0 1 1 1 1 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0022",
+      "category": "reasoning",
+      "input": "0 1 0 0 1 0 1 0 1 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0023",
+      "category": "reasoning",
+      "input": "0 1 0 0 0 0 0 0 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0024",
+      "category": "reasoning",
+      "input": "0 0 1 1 1 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0025",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 1 1 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0026",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0027",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0028",
+      "category": "reasoning",
+      "input": "0 0 0 1 1 0 1 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0029",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0030",
+      "category": "reasoning",
+      "input": "1 1 0 1 0 1 1 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0031",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 1 0 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0032",
+      "category": "reasoning",
+      "input": "0 1 0 1 1 0 0 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0033",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0034",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 1 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0035",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 1 0 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0036",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0037",
+      "category": "reasoning",
+      "input": "0 0 0 0 0 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0038",
+      "category": "reasoning",
+      "input": "1 1 0 0 1 1 0 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0039",
+      "category": "reasoning",
+      "input": "1 0 1 0 0 0 1 1 1 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0040",
+      "category": "reasoning",
+      "input": "1 1 0 0 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0041",
+      "category": "reasoning",
+      "input": "1 0 0 1 0 1 0 1 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0042",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 0 0 0 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0043",
+      "category": "reasoning",
+      "input": "1 1 1 1 0 1 1 0 0 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0044",
+      "category": "reasoning",
+      "input": "1 0 0 0 0 1 0 0 0 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0045",
+      "category": "reasoning",
+      "input": "1 1 1 0 1 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0046",
+      "category": "reasoning",
+      "input": "0 0 1 1 0 0 1 1 0 0",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0047",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 0 0 0 0 1",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0048",
+      "category": "reasoning",
+      "input": "0 0 1 0 0 1 0 1 1 1",
+      "expected": "0",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    },
+    {
+      "id": "compose_delayed_multi_recalllast-0049",
+      "category": "reasoning",
+      "input": "1 0 1 0 1 1 1 0 1 0",
+      "expected": "1",
+      "scoring": "exact",
+      "metadata": {
+        "task": "compose_delayed_multi_recalllast",
+        "length": 10,
+        "synthetic": true
+      }
+    }
+  ]
+}

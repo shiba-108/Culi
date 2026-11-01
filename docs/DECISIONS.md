@@ -20,6 +20,7 @@
 | D-0014 | Approved | Clarify Milestone 8 candidate set: recurrent, gated-memory, and compact gated-memory (hidden size 2). Hierarchical-state was not included in Milestone 8. | Reconciles D-0013 wording with the verified implementation in `src/run_milestone8.py` and `experiments/results/selective_memory_summary.json`. Hierarchical-state was evaluated in Milestone 7. |
 | D-0015 | Approved | Initialize Git and adopt GitHub repository `shiba-108/Culi` for version control of Project Model Culi. | Records Git/GitHub adoption; baseline commit created and pushed to `origin/main`. Preserves D-0001 through D-0014. |
 | D-0016 | Approved | Implement Milestone 9 cross-task generalization experiment with trained specialists and untrained controls across five synthetic tasks, multiple lengths, and multiple seeds. | Produces measured evidence on cross-task transfer, held-out task performance, and resource use without selecting a final architecture. |
+| D-0017 | Approved | Implement Milestone 10 collaborative specialist intelligence experiment comparing unified, independent, and collaborative systems on composite tasks with ablations. | Produces measured evidence on collaborative performance, routing, resource use, and limitations without selecting a final architecture. |
 
 ## Pending Decisions
 

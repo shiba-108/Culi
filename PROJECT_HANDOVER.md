@@ -62,6 +62,7 @@ Core requirements:
 | D-0014 | Clarification of Milestone 8 candidate set: recurrent, gated-memory, and compact gated-memory; hierarchical-state not included in Milestone 8. |
 | D-0015 | Git/GitHub adoption: initialize Git and adopt `shiba-108/Culi`; baseline commit `48c792697b729a65566fdd56bfa9a290a902627e` on branch `main`. |
 | D-0016 | Milestone 9 cross-task generalization experiment: trained specialists and untrained controls across five synthetic tasks, multiple lengths, and multiple seeds. |
+| D-0017 | Milestone 10 collaborative specialist intelligence experiment: unified, independent, and collaborative systems on composite tasks with ablations. |
 
 ### 1.3 Operational 4 GB Definition (D-0005)
 
@@ -78,14 +79,14 @@ Core requirements:
 
 ### 2.1 Status
 
-- Phase: Research Foundation and experimental milestones through Milestone 9 complete; documentation in progress; Git baseline adopted.
+- Phase: Research Foundation and experimental milestones through Milestone 10 complete; documentation in progress; Git baseline adopted.
 - Architecture: No architecture selected or endorsed. Experimental prototypes only.
 - Git: Initialized. Branch `main`. Latest baseline commit `48c792697b729a65566fdd56bfa9a290a902627e`. Remote `origin` (`git@github-culi:shiba-108/Culi.git`). Working tree last verified clean.
 - GitHub authentication: dedicated deploy key `culi_github_deploy` (private key not included in repository).
 - Git identity: `shiba-108` / `Xuanloc98@gmail.com`.
 - Reserved directories populated with source, tests, experiments, evaluations, and models.
 - Experiment log: experiments through Milestone 8 recorded.
-- Decision log: D-0001 through D-0015 approved; remaining decisions TO BE DEFINED.
+- Decision log: D-0001 through D-0017 approved; remaining decisions TO BE DEFINED.
 - No packages installed. No external data or weights downloaded. No VPS configuration modified. No Docker.
 - Milestone 9 (Cross-Task Generalization): approved direction, NOT started.
 
@@ -129,6 +130,16 @@ Core requirements:
 - Gated-memory and hierarchical models showed modestly higher scores on recall-related held-out tasks than recurrent and compact models.
 - Resource use: peak training RSS max ~18.7 MB; peak evaluation RSS max ~19.2 MB; all runs far below the 4 GB per-process limit.
 - Limitations: synthetic tasks only; no natural language, code, or general intelligence evaluation; no final architecture selected.
+
+### 2.5 Milestone 10 (Collaborative Specialist Intelligence) — Verified Findings and Limitations
+
+- Backbones: gated-memory specialists and unified models.
+- Composite tasks: five XOR-based combinations of base task outputs.
+- Conditions: unified, independent (first specialist), collaborative, and ablations (no shared memory, all specialists, no collaboration).
+- Collaborative systems activated 2-5 specialists per task and did not consistently outperform unified or independent baselines on held-out composite tasks in this setup.
+- Shared-memory ablation showed no score change; no-collaboration ablation matched independent baseline.
+- Resource use: peak training RSS max ~17.0 MB; peak evaluation RSS max ~17.4 MB; all runs far below the 4 GB per-process limit.
+- Limitations: synthetic tasks only; base specialists were imperfect, so collaborative XOR combination did not achieve perfect accuracy; no final architecture selected.
 
 ## 3. Research Findings and Unresolved Questions
 

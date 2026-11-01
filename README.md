@@ -2,7 +2,7 @@
 
 ## Status
 
-Initialization and experimental foundation complete through Milestone 9. Small experimental neural prototypes (feedforward, recurrent, gated-memory, hierarchical-state, compact gated-memory) and synthetic-task experiments have been implemented and executed under `src/` and `experiments/`. Milestone 9 evaluates cross-task generalization on synthetic tasks. No final neural architecture has been selected, and synthetic-task results are experimental evidence only, not claims of general intelligence. No packages have been installed, no datasets or model weights have been downloaded, no paid APIs have been called, no VPS configuration has been modified, and Git repository initialized; baseline commit created.
+Initialization and experimental foundation complete through Milestone 10. Small experimental neural prototypes (feedforward, recurrent, gated-memory, hierarchical-state, compact gated-memory) and synthetic-task experiments have been implemented and executed under `src/` and `experiments/`. Milestone 10 evaluates collaborative specialist intelligence on composite tasks. No final neural architecture has been selected, and synthetic-task results are experimental evidence only, not claims of general intelligence. No packages have been installed, no datasets or model weights have been downloaded, no paid APIs have been called, no VPS configuration has been modified, and Git repository initialized; baseline commit created.
 
 ## Established Project Objective
 
@@ -85,6 +85,7 @@ A minimal standard-library-only development foundation is present:
 - `src/run_milestone7.py`: runs the memory organization experiment.
 - `src/run_milestone8.py`: runs the selective memory experiment.
 - `src/run_milestone9.py`: runs the cross-task generalization experiment.
+- `src/run_milestone10.py`: runs the collaborative specialist intelligence experiment.
 - `src/neural_model.py`: small experimental feedforward neural network prototype.
 - `src/train_prototype.py`: trains the neural prototype on a controlled XOR task.
 - `src/prototype_adapter.py`: evaluation adapter for the neural prototype.
@@ -108,6 +109,7 @@ python3 src/compare_models.py
 python3 src/run_milestone7.py
 python3 src/run_milestone8.py
 python3 src/run_milestone9.py
+python3 src/run_milestone10.py
 ```
 
 ## Documentation Policy

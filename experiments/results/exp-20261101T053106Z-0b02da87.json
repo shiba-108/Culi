@@ -1,0 +1,46 @@
+{
+  "experiment_id": "exp-20261101T053106Z-0b02da87",
+  "timestamp_utc": "2026-11-01T05:31:06.523699+00:00",
+  "command": [
+    "python3",
+    "src/evaluate.py",
+    "--dataset",
+    "evaluations/seq_compose_dependency_multi_len4_v1.json",
+    "--adapter",
+    "sequential_adapters:SequentialMemoryAdapter",
+    "--model-path",
+    "/root/culi/models/m10_unified_memory_compose_dependency_multi_seed3.json",
+    "--model-name",
+    "memory",
+    "--model-version",
+    "unified-seed-3",
+    "--output",
+    "/root/culi/experiments/results/m10_eval_unified_compose_dependency_multi_seed3_len4.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.320684450911358,
+  "peak_rss_bytes": 17039360,
+  "cpu_time_seconds": 0.318577,
+  "cpu_utilization_percent": 99.34282722303223,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-20261101T053106Z-55280\nmodel=memory unified-seed-3\noverall_score=0.58\nvietnamese_language=None\nenglish_language=None\nrust_code=None\ndioxus_code=None\nreasoning=0.58\nplanning=None\ntool_selection=None\nmanual_review_count=0\npeak_rss_bytes=17039360\noutput=/root/culi/experiments/results/m10_eval_unified_compose_dependency_multi_seed3_len4.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

@@ -1,0 +1,13 @@
+evaluation_id=eval-20261101T053109Z-3632
+model=memory independent-seed-1
+overall_score=0.6
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.6
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=17039360
+output=/root/culi/experiments/results/m10_eval_independent_compose_parity_delayed_seed1_len8.json

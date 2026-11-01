@@ -1,0 +1,48 @@
+{
+  "experiment_id": "exp-20261101T053249Z-99f4a4dc",
+  "timestamp_utc": "2026-11-01T05:32:49.909344+00:00",
+  "command": [
+    "python3",
+    "src/evaluate_collaborative.py",
+    "--dataset",
+    "evaluations/seq_compose_parity_delayed_dependency_len12_v1.json",
+    "--task",
+    "compose_parity_delayed_dependency",
+    "--model",
+    "memory",
+    "--seed",
+    "3",
+    "--specialist-dir",
+    "models",
+    "--mode",
+    "collaborative",
+    "--output",
+    "/root/culi/experiments/results/m10_eval_collab_collaborative_compose_parity_delayed_dependency_seed3_len12.json"
+  ],
+  "configuration": {},
+  "status": "completed",
+  "exit_code": 0,
+  "runtime_seconds": 0.4999506860040128,
+  "peak_rss_bytes": 17170432,
+  "cpu_time_seconds": 0.49103099999999994,
+  "cpu_utilization_percent": 98.21588683569857,
+  "task_success": true,
+  "task_success_rate": 1.0,
+  "throughput": null,
+  "implemented_measurements": [
+    "exit_status",
+    "runtime_seconds",
+    "peak_rss_bytes",
+    "cpu_time_seconds",
+    "cpu_utilization_percent",
+    "task_success"
+  ],
+  "planned_measurements": [
+    "task_success_rate for multi-task suites",
+    "throughput (units per second, workload-defined)"
+  ],
+  "stdout": "evaluation_id=eval-collab-1793511169\nmodel=collaborative-memory collaborative-seed-3\noverall_score=0.42\nmanual_review_count=0\npeak_rss_bytes=17170432\noutput=/root/culi/experiments/results/m10_eval_collab_collaborative_compose_parity_delayed_dependency_seed3_len12.json\n",
+  "stderr": "",
+  "error": null,
+  "output_dir": "experiments/results"
+}

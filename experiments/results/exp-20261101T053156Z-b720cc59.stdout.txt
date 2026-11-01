@@ -1,0 +1,13 @@
+evaluation_id=eval-20261101T053156Z-27728
+model=memory independent-seed-2
+overall_score=0.68
+vietnamese_language=None
+english_language=None
+rust_code=None
+dioxus_code=None
+reasoning=0.68
+planning=None
+tool_selection=None
+manual_review_count=0
+peak_rss_bytes=17170432
+output=/root/culi/experiments/results/m10_eval_independent_compose_dependency_multi_seed2_len10.json
